@@ -47,6 +47,9 @@
 
 ### Navigation Diagram
 > Draw a diagram illustrating how the user can navigate from one screen to another. Here is an [example](https://creately.com/diagram/example/ikfqudv82/user-navigation-diagram-classic?r=v). It can be useful to label each symbol that represents a screen so that you can reference the screens in the next section or the rest of the document if necessary. Give a brief description of what the diagram represents.
+> ![Navigation Diagram](https://user-images.githubusercontent.com/129914516/236729984-c67b6aec-f552-4552-bef7-bc28523cb04d.png)
+> The user will go through various screens that prompt them with questions about their movie preferences. They will have the opportunity to answer or to just leave it blank. Any invalid answers will notify the user that their input wasn't accepted, and it reprompt for an answer. Print out a movie list based on the answers of the user. Once in that screen, the user can sort the list. Once the user is done, give them the option to quit or to restart the program.
+
 
 ### Screen Layouts
 > Include the layout of each of your screens. The layout should describe the screen’s major components such as menus and prompts for user inputs, expected output, and buttons (if applicable). Explain what is on the layout, and the purpose of each menu item, button, etc. If many screens share the same layout, start by describing the general layout and then list the screens that will be using that layout and the differences between each of them.
