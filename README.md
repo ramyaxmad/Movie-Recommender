@@ -47,7 +47,7 @@
 
 ### Navigation Diagram
 > Draw a diagram illustrating how the user can navigate from one screen to another. Here is an [example](https://creately.com/diagram/example/ikfqudv82/user-navigation-diagram-classic?r=v). It can be useful to label each symbol that represents a screen so that you can reference the screens in the next section or the rest of the document if necessary. Give a brief description of what the diagram represents.
-> ![Navigation Diagram](https://user-images.githubusercontent.com/129914516/236729984-c67b6aec-f552-4552-bef7-bc28523cb04d.png)
+> ![Screenshot 2023-05-11 203601](https://github.com/cs100/final-project-rmadu002-ashar165-wchoi053-bpham082/assets/129914516/f9e59ca4-617d-4630-8dcb-a34843c919ca)
 > The user will go through various screens that prompt them with questions about their movie preferences. They will have the opportunity to answer or to just leave it blank. Any invalid answers will notify the user that their input wasn't accepted, and it reprompt for an answer. Print out a movie list based on the answers of the user. Once in that screen, the user can sort the list. Once the user is done, give them the option to quit or to restart the program.
 
 
