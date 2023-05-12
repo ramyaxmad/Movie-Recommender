@@ -12,7 +12,7 @@
 ### Navigation Diagram
 > ![Screenshot 2023-05-11 203601](https://github.com/cs100/final-project-rmadu002-ashar165-wchoi053-bpham082/assets/129914516/f9e59ca4-617d-4630-8dcb-a34843c919ca)
 > 
-> The user will go through various screens that prompt them with questions about their movie preferences. They will have the opportunity to answer or to just leave it blank. Any invalid answers will notify the user that their input wasn't accepted, and it reprompt for an answer. Print out a movie list based on the answers of the user. Once in that screen, the user can sort the list. Once the user is done, give them the option to quit or to restart the program.
+> The terminal will first show a login screen where they will have to enter a username and password. Then, the user will go through various screens that prompt them with questions about their movie preferences. They will have the opportunity to answer or to just leave it blank. They will also have an option to go back to the previous question if they want to change it. Any invalid answers will notify the user that their input wasn't accepted, and it will reprompt for an answer. The final screen will print out a movie list based on the answers of the user. The user can re-sort the list by entering a number. Once the user is done, give them the option to restart or logout of the program.
 
 
 ### Screen Layouts
@@ -22,7 +22,13 @@
 ## Class Diagram
  > ![Screenshot 2023-05-11 213925](https://github.com/cs100/final-project-rmadu002-ashar165-wchoi053-bpham082/assets/129914516/c91b30fc-9030-4330-93bd-34f560410f91)
  > 
- > For now, we only have a MovieRecommender class with 4 private variables for the 4 user inputs, a constructor, and a search function. Our search function is designed to cut down from the list of all movies based on the parameters of the MovieRecommender constructor. 
+ > We have 4 classes: MovieRecommender, Movie, RecMovies, Sort. 
+ > MovieRecommender 
+ > contains with the UI including the login input, user input that answers each question (userGenre, userCastMember, userDirector, userLanguange), and user inputs that can restart the program, go back to the previous screen, and logout. 
+ > RecMovies
+ > will take in movie preference data and create a list of Movie objects.
+ > Movie
+ > a single Movie object is created and 
 
  > ## Phase III
  > You will need to schedule a check-in for the second scrum meeting with the same reader you had your first scrum meeting with (using Calendly). Your entire team must be present. This meeting will occur on week 8 during lab time.
