@@ -16,7 +16,8 @@
 
 
 ### Screen Layouts
- > ![Untitled Workspace](https://user-images.githubusercontent.com/114566035/236732276-d9833ab8-4a9c-42f8-86d4-c292756072fc.png)
+ > <img width="503" alt="Screenshot 2023-05-11 at 8 57 26 PM" src="https://github.com/cs100/final-project-rmadu002-ashar165-wchoi053-bpham082/assets/114566035/56cbd3bf-b581-440b-a369-2049b879b549">
+
 
 ## Class Diagram
  > <img width="514" alt="Screenshot 2023-05-07 at 9 29 49 PM" src="https://user-images.githubusercontent.com/114566035/236734210-d89daa6d-9495-43aa-bba3-f6cc22718c3f.png">
