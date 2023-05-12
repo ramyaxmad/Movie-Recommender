@@ -20,7 +20,7 @@
 
 
 ## Class Diagram
- > <img width="514" alt="Screenshot 2023-05-07 at 9 29 49 PM" src="https://user-images.githubusercontent.com/114566035/236734210-d89daa6d-9495-43aa-bba3-f6cc22718c3f.png">
+ > ![Screenshot 2023-05-11 213925](https://github.com/cs100/final-project-rmadu002-ashar165-wchoi053-bpham082/assets/129914516/c91b30fc-9030-4330-93bd-34f560410f91)
  > 
  > For now, we only have a MovieRecommender class with 4 private variables for the 4 user inputs, a constructor, and a search function. Our search function is designed to cut down from the list of all movies based on the parameters of the MovieRecommender constructor. 
 
