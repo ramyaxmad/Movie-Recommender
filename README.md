@@ -4,7 +4,9 @@
 
 ## Project Description
 > People have different tastes in movies, whether it be action, horror, rom-com, etc. Our movie recommender allows the users to find interesting movies based on movies they already enjoy through a reliable algorithm that sources real-world data. This is better than receiving recommendations from friends or family because those around you do not have a full understanding of every movie in the world and all of their respective information/data (Rotten Tomatoes ratings, Audience ratings, cast members, genres, etc.). However, our recommender will use all of these pieces of information in order to generate a list of movies that will have logical and evidence-based suggestions.
+> 
 > The programming language we intend to use is C++, as the rubric recommends. We will use information provided by various professional sources, such as Rotten Tomatoes. IMDb, and Netflix for example.
+> 
 > Our primary source of input will be through user input through the terminal. Within the terminal, the user will be prompted with various questions about their movie preferences, such as a preferred director, favorite cast member, genre, and even language. These inputs will be run through our back-end algorithm and will end up outputting a list of 20 or more movie recommendations, depending on if there exists a long enough list based on the given parameters. The list will primarily be sorted on its “compatibility score” with the user. We may include different sorting options, such as sorting the recommendations based on the release dates of the films.
 >
 ### Navigation Diagram
