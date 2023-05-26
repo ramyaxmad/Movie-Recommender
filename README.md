@@ -34,9 +34,15 @@
 
  > ## Phase III
  > <img width="308" alt="Screenshot" src="https://github.com/cs100/final-project-rmadu002-ashar165-wchoi053-bpham082/assets/114566035/14fa9c66-c81f-49cb-b4d6-8ecaa171d6f3">
+ > 
  > SOLID principles:
-- Single responsibility principle: We created a separate “Sort” class apart from the “DBFilter “class since the “DBFilter” class creates the original list of movies and a “Sort” class would manipulate the list of movies.
-- These changes satisfy the single responsibility principle because rather than having sort functions within the “DBFilter” class, each class can now be responsible for one thing. This makes each component simpler and easier to implement. In addition, we separated our “recMovies” class into a “DBFilter” and “DBManager class.” Instead of combining these two classes into one “recMovies” class, we decided to split them up for the same reason as before. If they weren’t separated, we would have one overly-complicated and potentially bug-filled class, rather than two cleaner components. 
+ > - Single responsibility principle: We created a separate “Sort” class apart from the “DBFilter “class since the “DBFilter” class creates
+ > the original list of movies and a “Sort” class would manipulate the list of movies.
+ > - These changes satisfy the single responsibility principle because rather than having sort functions within the “DBFilter” class, each
+ > class can now be responsible for one thing. This makes each component simpler and easier to implement. In addition, we separated our
+ > “recMovies” class into a “DBFilter” and “DBManager class.” Instead of combining these two classes into one “recMovies” class, we decided
+ > to split them up for the same reason as before. If they weren’t separated, we would have one overly-complicated and potentially bug
+ > filled class, rather than two cleaner components. 
 
 
 
