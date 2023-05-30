@@ -3,7 +3,7 @@
 
 using namespace std;
 
-Movie::Movie() {
+Movie::LoadData() {
     // Default constructor
     genre = "";
     castMember = "";
