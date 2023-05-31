@@ -44,7 +44,7 @@ int Movie::getRating() const {
     return rating;
 }
 
-string Movie::getData() const {
+int Movie::getData() const {
     return data;
 }
 

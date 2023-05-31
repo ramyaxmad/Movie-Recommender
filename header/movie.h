@@ -25,7 +25,7 @@ class Movie {
         string getDirector() const;
         string getLanguage() const;
         int getRating() const;
-        string getData() const;
+        int getData() const;
 
         
 };
