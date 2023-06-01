@@ -11,5 +11,8 @@ add_executable(runAllTests
   tests/test.cpp 
   
 )
+add_executable(movieRecommender
+   main.cpp
+)
 
 target_link_libraries(runAllTests gmock gtest gtest_main)

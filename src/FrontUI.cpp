@@ -1,4 +1,4 @@
-#include "../header/FrontUI/h"
+#include "../header/FrontUI.h"
 
 #include <iostream>
 #include <string>
@@ -7,7 +7,7 @@ using namespace std;
 
 FrontUI::FrontUI() {}
 
-void FrontUI::loginMenu() {
+void FrontUI::displayLoginMenu() {
     cout << "MOVIE RECOMMENDER" << endl << endl;
 
     while (true) {
@@ -27,37 +27,37 @@ void FrontUI::loginMenu() {
             //break;
     }
     cout << endl;
-    HandleQuestion();
+    handleQuestion();
 }
 
-void FrontUI::HandleQuestion() {
+void FrontUI::handleQuestion() {
     int result;
     int question = 1;
     while (question != 6) {     //change 6??
         if (question == 1) {
-            result = genreQuestion();
+            result = displayGenreQuestion();
             question += result;
         }
         if (question == 2) {
-            result = castMemberQuestion();
+            result = displayCastMemberQuestion();
             question += result;
         }
         if (question == 3) {
-            result = languageQuestion();
+            result = displayLanguageQuestion();
             question += result;
         }
         if (question == 4) {
-            result = directorQuestion();
+            result = displayDirectorQuestion();
             question += result;
         }
         if (question == 5) {
-            result = MovieList();
+            result = displayMovieList();
             question = result
         }
     }
 }
 
-int FrontUI::genreQuestion() {
+int FrontUI::displayGenreQuestion() {
     while (true) {
         cout << "Input a preferred GENRE (list of options) or press enter to leave blank: ";
         string genre;
@@ -72,7 +72,7 @@ int FrontUI::genreQuestion() {
     return 1;
 }
 
-int FrontUI::castMemberQuestion() {
+int FrontUI::displayCastMemberQuestion() {
     cout << "Input a preferred CAST MEMBER or press enter to leave blank: ";
     string castMember;
     getline(cin, castMember);
@@ -88,7 +88,7 @@ int FrontUI::castMemberQuestion() {
         return 1;
 }
 
-int FrontUI::languageQuestion() {
+int FrontUI::displayLanguageQuestion() {
     cout << "Input a preferred LANGUAGE or press enter to leave blank: ";
     string language;
     getline(cin, language);
@@ -104,7 +104,7 @@ int FrontUI::languageQuestion() {
         return 1;
 }
 
-int FrontUI::directorQuestion() {
+int FrontUI::displayDirectorQuestion() {
     cout << "Input a preferred LANGUAGE or press enter to leave blank: ";
     string language;
     getline(cin, language);
@@ -120,7 +120,7 @@ int FrontUI::directorQuestion() {
         return 1;
 }
 
-int FrontUI::MovieList() {
+int FrontUI::displayMovieList() {
 
     while (true) {
         cout "Sortint Options: " << endl 
