@@ -9,6 +9,7 @@ class loginAuthentication {
         string password;
         string username;
     public:
+        loginAuthentication();
         loginAuthentication(string, string);
         bool validLogin();
         void readFiles();

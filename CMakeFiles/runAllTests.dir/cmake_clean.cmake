@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/runAllTests.dir/main.cpp.o"
   "CMakeFiles/runAllTests.dir/main.cpp.o.d"
-  "CMakeFiles/runAllTests.dir/tests/test.cpp.o"
-  "CMakeFiles/runAllTests.dir/tests/test.cpp.o.d"
+  "CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o"
+  "CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o.d"
   "bin/runAllTests"
   "bin/runAllTests.pdb"
 )
