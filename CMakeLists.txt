@@ -9,6 +9,7 @@ add_subdirectory(googletest)
 
 add_executable(runAllTests
   tests/test.cpp 
+  main.cpp
   
 )
 
