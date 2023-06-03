@@ -2,9 +2,11 @@
 #define DBMANAGER_H
 
 #include <iostream>
+#include <string>
 #include <vector>
 #include <fstream>
-#include "header/movie.h"
+#include <sstream>
+#include "../header/movie.h"
 
 using namespace std;
 
