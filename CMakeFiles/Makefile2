@@ -131,17 +131,17 @@ googletest/googletest/clean: googletest/googletest/CMakeFiles/gtest.dir/clean
 # Target rules for target CMakeFiles/runAllTests.dir
 
 # All Build rule for target.
+CMakeFiles/runAllTests.dir/all: googletest/googlemock/CMakeFiles/gmock.dir/all
 CMakeFiles/runAllTests.dir/all: googletest/googletest/CMakeFiles/gtest_main.dir/all
 CMakeFiles/runAllTests.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
-CMakeFiles/runAllTests.dir/all: googletest/googlemock/CMakeFiles/gmock.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles --progress-num=9,10 "Built target runAllTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles --progress-num=9,10,11 "Built target runAllTests"
 .PHONY : CMakeFiles/runAllTests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/runAllTests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/runAllTests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles 0
 .PHONY : CMakeFiles/runAllTests.dir/rule
@@ -159,8 +159,8 @@ CMakeFiles/runAllTests.dir/clean:
 # Target rules for target googletest/googlemock/CMakeFiles/gmock_main.dir
 
 # All Build rule for target.
-googletest/googlemock/CMakeFiles/gmock_main.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
 googletest/googlemock/CMakeFiles/gmock_main.dir/all: googletest/googlemock/CMakeFiles/gmock.dir/all
+googletest/googlemock/CMakeFiles/gmock_main.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f googletest/googlemock/CMakeFiles/gmock_main.dir/build.make googletest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f googletest/googlemock/CMakeFiles/gmock_main.dir/build.make googletest/googlemock/CMakeFiles/gmock_main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles --progress-num=3,4 "Built target gmock_main"
