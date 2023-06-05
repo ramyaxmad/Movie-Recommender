@@ -11,6 +11,7 @@ class loginAuthentication {
     public:
         loginAuthentication();
         loginAuthentication(string, string);
+        void createLogin();
         bool validLogin();
         void readFiles();
 

@@ -11,6 +11,9 @@ loginAuthentication::loginAuthentication() {
 loginAuthentication::loginAuthentication(string pass, string user) {
     password = pass; 
     username = user;
+}
+
+void loginAuthentication::createLogin () {
     ofstream inFile;
     inFile.open("../lib/login.txt");
 
@@ -19,11 +22,10 @@ loginAuthentication::loginAuthentication(string pass, string user) {
         return;
     }
 
-    inFile << user << endl;
-    inFile << pass << endl;
+    inFile << password << endl;
+    inFile << username << endl;
 
     inFile.close();
-
 }
 
 bool loginAuthentication::validLogin() {
