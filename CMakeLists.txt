@@ -8,8 +8,9 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${PROJECT_BINARY_DIR}/lib")
 add_subdirectory(googletest)
 
 add_executable(runAllTests
-  tests/test.cpp 
   main.cpp
+  src/loginAuth.cpp
+
   
 )
 

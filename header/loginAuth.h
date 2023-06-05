@@ -9,7 +9,9 @@ class loginAuthentication {
         string password;
         string username;
     public:
+        loginAuthentication();
         loginAuthentication(string, string);
+        void createLogin();
         bool validLogin();
         void readFiles();
 

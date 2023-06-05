@@ -69,24 +69,10 @@ include CMakeFiles/runAllTests.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/runAllTests.dir/flags.make
 
-CMakeFiles/runAllTests.dir/tests/test.cpp.o: CMakeFiles/runAllTests.dir/flags.make
-CMakeFiles/runAllTests.dir/tests/test.cpp.o: tests/test.cpp
-CMakeFiles/runAllTests.dir/tests/test.cpp.o: CMakeFiles/runAllTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/csmajs/ashar165/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/runAllTests.dir/tests/test.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runAllTests.dir/tests/test.cpp.o -MF CMakeFiles/runAllTests.dir/tests/test.cpp.o.d -o CMakeFiles/runAllTests.dir/tests/test.cpp.o -c /home/csmajs/ashar165/final-project-rmadu002-ashar165-wchoi053-bpham082/tests/test.cpp
-
-CMakeFiles/runAllTests.dir/tests/test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runAllTests.dir/tests/test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/csmajs/ashar165/final-project-rmadu002-ashar165-wchoi053-bpham082/tests/test.cpp > CMakeFiles/runAllTests.dir/tests/test.cpp.i
-
-CMakeFiles/runAllTests.dir/tests/test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runAllTests.dir/tests/test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/csmajs/ashar165/final-project-rmadu002-ashar165-wchoi053-bpham082/tests/test.cpp -o CMakeFiles/runAllTests.dir/tests/test.cpp.s
-
 CMakeFiles/runAllTests.dir/main.cpp.o: CMakeFiles/runAllTests.dir/flags.make
 CMakeFiles/runAllTests.dir/main.cpp.o: main.cpp
 CMakeFiles/runAllTests.dir/main.cpp.o: CMakeFiles/runAllTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/csmajs/ashar165/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/runAllTests.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/csmajs/ashar165/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/runAllTests.dir/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runAllTests.dir/main.cpp.o -MF CMakeFiles/runAllTests.dir/main.cpp.o.d -o CMakeFiles/runAllTests.dir/main.cpp.o -c /home/csmajs/ashar165/final-project-rmadu002-ashar165-wchoi053-bpham082/main.cpp
 
 CMakeFiles/runAllTests.dir/main.cpp.i: cmake_force
@@ -97,16 +83,30 @@ CMakeFiles/runAllTests.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runAllTests.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/csmajs/ashar165/final-project-rmadu002-ashar165-wchoi053-bpham082/main.cpp -o CMakeFiles/runAllTests.dir/main.cpp.s
 
+CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o: CMakeFiles/runAllTests.dir/flags.make
+CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o: src/loginAuth.cpp
+CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o: CMakeFiles/runAllTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/csmajs/ashar165/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o -MF CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o.d -o CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o -c /home/csmajs/ashar165/final-project-rmadu002-ashar165-wchoi053-bpham082/src/loginAuth.cpp
+
+CMakeFiles/runAllTests.dir/src/loginAuth.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runAllTests.dir/src/loginAuth.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/csmajs/ashar165/final-project-rmadu002-ashar165-wchoi053-bpham082/src/loginAuth.cpp > CMakeFiles/runAllTests.dir/src/loginAuth.cpp.i
+
+CMakeFiles/runAllTests.dir/src/loginAuth.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runAllTests.dir/src/loginAuth.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/csmajs/ashar165/final-project-rmadu002-ashar165-wchoi053-bpham082/src/loginAuth.cpp -o CMakeFiles/runAllTests.dir/src/loginAuth.cpp.s
+
 # Object files for target runAllTests
 runAllTests_OBJECTS = \
-"CMakeFiles/runAllTests.dir/tests/test.cpp.o" \
-"CMakeFiles/runAllTests.dir/main.cpp.o"
+"CMakeFiles/runAllTests.dir/main.cpp.o" \
+"CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o"
 
 # External object files for target runAllTests
 runAllTests_EXTERNAL_OBJECTS =
 
-bin/runAllTests: CMakeFiles/runAllTests.dir/tests/test.cpp.o
 bin/runAllTests: CMakeFiles/runAllTests.dir/main.cpp.o
+bin/runAllTests: CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o
 bin/runAllTests: CMakeFiles/runAllTests.dir/build.make
 bin/runAllTests: lib/libgmock.a
 bin/runAllTests: lib/libgtest.a

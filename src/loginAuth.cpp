@@ -3,22 +3,29 @@
 
 using namespace std;
 
+loginAuthentication::loginAuthentication() {
+    password = "";
+    username = "";
+}
+
 loginAuthentication::loginAuthentication(string pass, string user) {
-    password = pass;
+    password = pass; 
     username = user;
+}
+
+void loginAuthentication::createLogin () {
     ofstream inFile;
     inFile.open("../lib/login.txt");
 
-    if !(inFile.is_open()) {
+    if (!inFile.is_open()) {
         cout << "Error reading file." << endl;
-        return 1;
+        return;
     }
 
-    inFile << user << endl;
-    inFile << pass << endl;
+    inFile << password << endl;
+    inFile << username << endl;
 
-    inFile.close()
-
+    inFile.close();
 }
 
 bool loginAuthentication::validLogin() {
@@ -29,7 +36,7 @@ bool loginAuthentication::validLogin() {
 
     inFile.open("../lib/login.txt");
 
-    if !(inFile.is_open()) {
+    if (!inFile.is_open()) {
         cout << "Error reading file." << endl;
         return 1;
     }
@@ -56,9 +63,9 @@ void loginAuthentication::readFiles() {
     string input2;
     inFile.open("../lib/login.txt");
 
-    if (!inFile.is_open) {
-        cout << "Error reading file." << endl
-        return 1;
+    if (!inFile.is_open()) {
+        cout << "Error reading file." << endl;
+        return;
     }
 
     while (getline(inFile, input)) {
