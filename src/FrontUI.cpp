@@ -6,7 +6,9 @@
 
 using namespace std;
 
-FrontUI::FrontUI() {}
+FrontUI::FrontUI() {
+    filter = new DBFilter();
+}
 
 void FrontUI::displayLoginMenu() {
     cout << "MOVIE RECOMMENDER" << endl << endl;
@@ -60,16 +62,17 @@ void FrontUI::handleQuestion() {
 }
 
 int FrontUI::displayGenreQuestion() {
+    string genre;
     while (true) {
         cout << "Input a preferred GENRE (list of options) or press enter to leave blank: ";
-        string genre;
         getline(cin, genre);
         //if invalid
-            //cout << "Invalid. Please try again." << endl << endl;
-        //else
-            //break;
+            cout << "Invalid. Please try again." << endl << endl;
+        else
+            break;
     }
     //pass string into movie list generator
+    filter.queryMovieByGenre(genre);
     cout << endl;
     return 1;
 }
@@ -79,7 +82,8 @@ int FrontUI::displayCastMemberQuestion() {
     string castMember;
     getline(cin, castMember);
     //pass string into movie list generator
-    
+    filter.queryMovieByCast(castMember);
+
     cout << endl << endl << "Enter \"-\" to go to previous question (genre): ";
     string goBack;
     cin >> goBack;
@@ -95,6 +99,7 @@ int FrontUI::displayLanguageQuestion() {
     string language;
     getline(cin, language);
     //pass string into movie list generator
+    filter.queryMovieByLanguage(string);
 
     cout << endl << endl << "Enter \"-\" to go to previous question (genre): ";
     string goBack;
@@ -108,9 +113,10 @@ int FrontUI::displayLanguageQuestion() {
 
 int FrontUI::displayDirectorQuestion() {
     cout << "Input a preferred LANGUAGE or press enter to leave blank: ";
-    string language;
-    getline(cin, language);
+    string director;
+    getline(cin, director);
     //pass string into movie list generator
+    filter.queryMovieByDirector(director);
 
     cout << endl << endl << "Enter \"-\" to go to previous question (genre): ";
     string goBack;
@@ -123,6 +129,10 @@ int FrontUI::displayDirectorQuestion() {
 }
 
 int FrontUI::displayMovieList() {
+
+    cout << "RECOMMENDED MOVIES: " << endl << endl;
+    //call function to output list of movies
+    recMoviesList = filter.
 
     while (true) {
         cout << "Sortint Options: " << endl 
@@ -139,13 +149,10 @@ int FrontUI::displayMovieList() {
             //break
         //}
         //else {
-            //cout << "RECOMMENDED MOVIES: " << endl << endl;
+            cout << "RECOMMENDED MOVIES: " << endl << endl;
             //call function to output list of movies
         //}
     }
-
-    cout << "RECOMMENDED MOVIES: " << endl << endl;
-    //call function to output list of movies
 
     cout << "1. Restart (new list of movies)" << endl << "2. Logout" << endl << "Select an option: ";
     int startOver;

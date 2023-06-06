@@ -33,24 +33,19 @@
  > a single Movie object is created and 
 
  > ## Phase III
- > You will need to schedule a check-in for the second scrum meeting with the same reader you had your first scrum meeting with (using Calendly). Your entire team must be present. This meeting will occur on week 8 during lab time.
- 
- > BEFORE the meeting you should do the following:
- > * Update your class diagram from Phase II to include any feedback you received from your TA/grader.
- > * Considering the SOLID design principles, reflect back on your class diagram and think about how you can use the SOLID principles to improve your design. You should then update the README.md file by adding the following:
- >   * A new class diagram incorporating your changes after considering the SOLID principles.
- >   * For each update in your class diagram, you must explain in 3-4 sentences:
- >     * What SOLID principle(s) did you apply?
- >     * How did you apply it? i.e. describe the change.
- >     * How did this change help you write better code?
- > * Perform a new sprint plan like you did in Phase II.
- > * You should also make sure that your README file (and Project board) are up-to-date reflecting the current status of your project and the most recent class diagram. Previous versions of the README file should still be visible through your commit history.
- 
-> During the meeting with your reader you will discuss: 
- > * How effective your last sprint was (each member should talk about what they did)
- > * Any tasks that did not get completed last sprint, and how you took them into consideration for this sprint
- > * Any bugs you've identified and created issues for during the sprint. Do you plan on fixing them in the next sprint or are they lower priority?
- > * What tasks you are planning for this next sprint.
+ > <img width="308" alt="Screenshot" src="https://github.com/cs100/final-project-rmadu002-ashar165-wchoi053-bpham082/assets/114566035/14fa9c66-c81f-49cb-b4d6-8ecaa171d6f3">
+ > 
+ > SOLID principles:
+ > - Single responsibility principle: We created a separate “Sort” class apart from the “DBFilter “class since the “DBFilter” class creates
+ > the original list of movies and a “Sort” class would manipulate the list of movies.
+ > - These changes satisfy the single responsibility principle because rather than having sort functions within the “DBFilter” class, each
+ > class can now be responsible for one thing. This makes each component simpler and easier to implement. In addition, we separated our
+ > “recMovies” class into a “DBFilter” and “DBManager class.” Instead of combining these two classes into one “recMovies” class, we decided
+ > to split them up for the same reason as before. If they weren’t separated, we would have one overly-complicated and potentially bug
+ > filled class, rather than two cleaner components. 
+
+
+
 
  
  > ## Final deliverable

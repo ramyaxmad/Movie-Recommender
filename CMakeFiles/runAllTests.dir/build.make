@@ -53,10 +53,17 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082
+=======
+CMAKE_SOURCE_DIR = /home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082
+>>>>>>> master
 
 # Include any dependencies generated for this target.
 include CMakeFiles/runAllTests.dir/depend.make
@@ -69,6 +76,7 @@ include CMakeFiles/runAllTests.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/runAllTests.dir/flags.make
 
+<<<<<<< HEAD
 CMakeFiles/runAllTests.dir/tests/test.cpp.o: CMakeFiles/runAllTests.dir/flags.make
 CMakeFiles/runAllTests.dir/tests/test.cpp.o: tests/test.cpp
 CMakeFiles/runAllTests.dir/tests/test.cpp.o: CMakeFiles/runAllTests.dir/compiler_depend.ts
@@ -86,10 +94,45 @@ CMakeFiles/runAllTests.dir/tests/test.cpp.s: cmake_force
 # Object files for target runAllTests
 runAllTests_OBJECTS = \
 "CMakeFiles/runAllTests.dir/tests/test.cpp.o"
+=======
+CMakeFiles/runAllTests.dir/main.cpp.o: CMakeFiles/runAllTests.dir/flags.make
+CMakeFiles/runAllTests.dir/main.cpp.o: main.cpp
+CMakeFiles/runAllTests.dir/main.cpp.o: CMakeFiles/runAllTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/runAllTests.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runAllTests.dir/main.cpp.o -MF CMakeFiles/runAllTests.dir/main.cpp.o.d -o CMakeFiles/runAllTests.dir/main.cpp.o -c /home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/main.cpp
+
+CMakeFiles/runAllTests.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runAllTests.dir/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/main.cpp > CMakeFiles/runAllTests.dir/main.cpp.i
+
+CMakeFiles/runAllTests.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runAllTests.dir/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/main.cpp -o CMakeFiles/runAllTests.dir/main.cpp.s
+
+CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o: CMakeFiles/runAllTests.dir/flags.make
+CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o: src/loginAuth.cpp
+CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o: CMakeFiles/runAllTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o -MF CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o.d -o CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o -c /home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/src/loginAuth.cpp
+
+CMakeFiles/runAllTests.dir/src/loginAuth.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runAllTests.dir/src/loginAuth.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/src/loginAuth.cpp > CMakeFiles/runAllTests.dir/src/loginAuth.cpp.i
+
+CMakeFiles/runAllTests.dir/src/loginAuth.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runAllTests.dir/src/loginAuth.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/src/loginAuth.cpp -o CMakeFiles/runAllTests.dir/src/loginAuth.cpp.s
+
+# Object files for target runAllTests
+runAllTests_OBJECTS = \
+"CMakeFiles/runAllTests.dir/main.cpp.o" \
+"CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o"
+>>>>>>> master
 
 # External object files for target runAllTests
 runAllTests_EXTERNAL_OBJECTS =
 
+<<<<<<< HEAD
 runAllTests: CMakeFiles/runAllTests.dir/tests/test.cpp.o
 runAllTests: CMakeFiles/runAllTests.dir/build.make
 runAllTests: libmovie_lib.a
@@ -100,6 +143,21 @@ runAllTests: CMakeFiles/runAllTests.dir/link.txt
 
 # Rule to build all files generated by this target.
 CMakeFiles/runAllTests.dir/build: runAllTests
+=======
+bin/runAllTests: CMakeFiles/runAllTests.dir/main.cpp.o
+bin/runAllTests: CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o
+bin/runAllTests: CMakeFiles/runAllTests.dir/build.make
+bin/runAllTests: lib/libgmock.a
+bin/runAllTests: lib/libgtest.a
+bin/runAllTests: lib/libgtest_main.a
+bin/runAllTests: lib/libgtest.a
+bin/runAllTests: CMakeFiles/runAllTests.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable bin/runAllTests"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/runAllTests.dir/link.txt --verbose=$(VERBOSE)
+
+# Rule to build all files generated by this target.
+CMakeFiles/runAllTests.dir/build: bin/runAllTests
+>>>>>>> master
 .PHONY : CMakeFiles/runAllTests.dir/build
 
 CMakeFiles/runAllTests.dir/clean:
@@ -107,6 +165,10 @@ CMakeFiles/runAllTests.dir/clean:
 .PHONY : CMakeFiles/runAllTests.dir/clean
 
 CMakeFiles/runAllTests.dir/depend:
+<<<<<<< HEAD
 	cd /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082 /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082 /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082 /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082 /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles/runAllTests.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082 /home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082 /home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082 /home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082 /home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles/runAllTests.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> master
 .PHONY : CMakeFiles/runAllTests.dir/depend
 

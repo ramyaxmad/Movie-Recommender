@@ -9,18 +9,20 @@ Movie::Movie() {
     castMember = "";
     director = "";
     language = "";
-    data = 0;
+    movieID = 0;
     rating = 0;
-    name = "";
+    title = "";
 }
 
-Movie::Movie(string genre, string castMember, string director, string language, int data, int rating) {
+Movie::Movie(int movieID, string title, string genre, string castMember, string director, string language, int rating) {
     // Parameterized constructor
+    this->movieID = movieID;
+    this->title = title;
     this->genre = genre;
     this->castMember = castMember;
     this->director = director;
     this->language = language;
-    this->data = data;
+    this->movieID = movieID;
     this->rating = rating;
 }
 
@@ -44,18 +46,18 @@ int Movie::getRating() const {
     return rating;
 }
 
-string Movie::getData() const {
-    return data;
+int Movie::getMovieID() const {
+    return movieID;
 }
 
-Movie Movie::output() {
+void Movie::output() {
     // Print the details of the movie
-    cout << "Name: " << name << endl;
+    cout << "Name: " << title << endl;
     cout << "Genre: " << genre << endl;
     cout << "Cast Member: " << castMember << endl;
     cout << "Director: " << director << endl;
     cout << "Language: " << language << endl;
-    cout << "Data: " << data << endl;
+    cout << "Movie ID: " << movieID << endl;
     cout << "Rating: " << rating << "/100" << endl;
 }
 

@@ -6,7 +6,8 @@
 
 class FrontUI {
     private:
-
+        DBFilter filter;
+        vector<Movie> recMoviesList;
     public:
         FrontUI();
         void displayLoginMenu();

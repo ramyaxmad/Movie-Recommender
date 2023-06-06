@@ -5,6 +5,7 @@ ADD_SUBDIRECTORY(googletest)
 
 SET(CMAKE_CXX_STANDARD 11)
 
+<<<<<<< HEAD
 # Make library
 add_library(movie_lib STATIC
   src/FrontUI.cpp
@@ -13,7 +14,6 @@ add_library(movie_lib STATIC
 target_include_directories(movie_lib
   PUBLIC 
     ${PROJECT_SOURCE_DIR}/header
-)
 
 # Make executables
 ADD_EXECUTABLE(runAllTests
