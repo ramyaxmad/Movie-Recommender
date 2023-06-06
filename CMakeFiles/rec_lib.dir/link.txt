@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/librec_lib.a CMakeFiles/rec_lib.dir/src/FrontUI.cpp.o
+/usr/bin/ranlib lib/librec_lib.a

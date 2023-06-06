@@ -9,12 +9,12 @@ class FrontUI {
 
     public:
         FrontUI();
-        void displayloginMenu();
+        void displayLoginMenu();
         void handleQuestion();
         int displayGenreQuestion();
         int displayCastMemberQuestion();
         int displayLanguageQuestion();
         int displayDirectorQuestion();
         int displayMovieList();
-}
+};
 #endif

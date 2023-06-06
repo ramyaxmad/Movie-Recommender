@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmovie_lib.a CMakeFiles/movie_lib.dir/src/FrontUI.cpp.o
+/usr/bin/ranlib libmovie_lib.a

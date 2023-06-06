@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/runAllTests.dir/tests/test.cpp.o -o runAllTests  libmovie_lib.a lib/libgtest.a -lpthread 

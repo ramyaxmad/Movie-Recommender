@@ -1,4 +1,5 @@
 #include "../header/FrontUI.h"
+#include "../header/loginAuth.h"
 
 #include <iostream>
 #include <string>
@@ -20,11 +21,12 @@ void FrontUI::displayLoginMenu() {
         string pass;
         getline(cin, pass);
 
-        //pass username and password into login class, return bool for authentication
-        //if invalid
-            //cout << "Invalid. Please try again."
-        //else 
-            //break;
+        loginAuthentication(user, pass);
+        if (validLogin())
+            cout << "Invalid. Please try again." << endl << endl;
+        else 
+            createLogin();
+            break;
     }
     cout << endl;
     handleQuestion();
@@ -52,7 +54,7 @@ void FrontUI::handleQuestion() {
         }
         if (question == 5) {
             result = displayMovieList();
-            question = result
+            question = result;
         }
     }
 }
@@ -123,14 +125,14 @@ int FrontUI::displayDirectorQuestion() {
 int FrontUI::displayMovieList() {
 
     while (true) {
-        cout "Sortint Options: " << endl 
+        cout << "Sortint Options: " << endl 
         << "1. Most to least popular" << endl 
         << "2. Latest to oldest" << endl 
         << "3. Alphabetical order" << endl << endl;
 
         cout << "To re-sort, select an option: "; 
         int sortOption;
-        cin >> sortOption
+        cin >> sortOption;
         //if invalid input
             //cout << "Invalid input. Please try again." << endl << endl;
         //else if (no sort) {
@@ -145,9 +147,7 @@ int FrontUI::displayMovieList() {
     cout << "RECOMMENDED MOVIES: " << endl << endl;
     //call function to output list of movies
 
-    cout << "1. Restart (new list of movies)" << endl << "2. Logout" << endl "Select an option: ";
+    cout << "1. Restart (new list of movies)" << endl << "2. Logout" << endl << "Select an option: ";
     int startOver;
     cin >> startOver;
-    if (startOver == 1)
-        
 }

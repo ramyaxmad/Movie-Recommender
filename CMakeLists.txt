@@ -1,18 +1,31 @@
-cmake_minimum_required(VERSION 3.20)
-project(final-project)
+CMAKE_MINIMUM_REQUIRED(VERSION 3.0)
+project(MovieRecommender)
 
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${PROJECT_BINARY_DIR}/bin")
-set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${PROJECT_BINARY_DIR}/lib")
-set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${PROJECT_BINARY_DIR}/lib")
+ADD_SUBDIRECTORY(googletest)
 
-add_subdirectory(googletest)
+SET(CMAKE_CXX_STANDARD 11)
 
-add_executable(runAllTests
-  tests/test.cpp 
-  
+# Make library
+add_library(movie_lib STATIC
+  src/FrontUI.cpp
+  # add all .cpp files here
 )
-add_executable(movieRecommender
-   main.cpp
+target_include_directories(movie_lib
+  PUBLIC 
+    ${PROJECT_SOURCE_DIR}/header
 )
 
-target_link_libraries(runAllTests gmock gtest gtest_main)
+# Make executables
+ADD_EXECUTABLE(runAllTests
+  tests/test.cpp
+)
+
+ADD_EXECUTABLE(movieRec
+  main.cpp
+)
+
+TARGET_LINK_LIBRARIES(movieRec movie_lib)
+
+TARGET_LINK_LIBRARIES(runAllTests movie_lib)
+TARGET_LINK_LIBRARIES(runAllTests gtest)
+TARGET_COMPILE_DEFINITIONS(runAllTests PRIVATE gtest_disable_pthreads=ON)
