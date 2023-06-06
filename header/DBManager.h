@@ -12,9 +12,9 @@ using namespace std;
 
 class DBManager {
 private:
-    vector<Movie> Movies;
+    vector<Movie> movies;
 public:
-    void LoadData();
+    void loadData();
     vector<Movie> getMovies(); 
 };
 
