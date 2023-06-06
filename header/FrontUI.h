@@ -1,8 +1,10 @@
 #ifndef FRONT_UI_H
 #define FRONT_UI_H
 
+#include "DBFilter.h"
 #include <iostream>
 #include <string>
+#include <vector>
 
 class FrontUI {
     private:

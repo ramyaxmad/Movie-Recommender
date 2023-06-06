@@ -4,6 +4,7 @@
 CMakeFiles/movie_lib.dir/src/FrontUI.cpp.o: src/FrontUI.cpp \
   /usr/include/stdc-predef.h \
   header/FrontUI.h \
+  header/DBFilter.h \
   /usr/include/c++/8/iostream \
   /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
   /usr/include/bits/wordsize.h \
@@ -167,8 +168,49 @@ CMakeFiles/movie_lib.dir/src/FrontUI.cpp.o: src/FrontUI.cpp \
   /usr/include/c++/8/bits/basic_ios.tcc \
   /usr/include/c++/8/bits/ostream.tcc \
   /usr/include/c++/8/istream \
-  /usr/include/c++/8/bits/istream.tcc
+  /usr/include/c++/8/bits/istream.tcc \
+  /usr/include/c++/8/vector \
+  /usr/include/c++/8/bits/stl_construct.h \
+  /usr/include/c++/8/bits/stl_uninitialized.h \
+  /usr/include/c++/8/bits/stl_vector.h \
+  /usr/include/c++/8/bits/stl_bvector.h \
+  /usr/include/c++/8/bits/vector.tcc \
+  /usr/include/c++/8/fstream \
+  /usr/include/c++/8/bits/codecvt.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/basic_file.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++io.h \
+  /usr/include/c++/8/bits/fstream.tcc \
+  /usr/include/c++/8/sstream \
+  /usr/include/c++/8/bits/sstream.tcc \
+  header/movie.h \
+  header/DBManager.h \
+  header/movie.h \
+  header/loginAuth.h \
+  header/DBManager.h \
+  header/DBFilter.h
 
+
+header/loginAuth.h:
+
+header/DBManager.h:
+
+/usr/include/c++/8/bits/sstream.tcc:
+
+/usr/include/c++/8/bits/fstream.tcc:
+
+/usr/include/c++/8/x86_64-redhat-linux/bits/c++io.h:
+
+/usr/include/c++/8/x86_64-redhat-linux/bits/basic_file.h:
+
+/usr/include/c++/8/bits/vector.tcc:
+
+/usr/include/c++/8/bits/stl_uninitialized.h:
+
+/usr/include/c++/8/vector:
+
+/usr/include/c++/8/istream:
+
+/usr/include/c++/8/bits/stl_construct.h:
 
 /usr/include/bits/endian.h:
 
@@ -224,20 +266,6 @@ CMakeFiles/movie_lib.dir/src/FrontUI.cpp.o: src/FrontUI.cpp \
 
 /usr/include/c++/8/x86_64-redhat-linux/bits/atomic_word.h:
 
-/usr/include/stdint.h:
-
-/usr/include/c++/8/backward/binders.h:
-
-/usr/include/c++/8/exception:
-
-/usr/include/c++/8/bits/stl_pair.h:
-
-/usr/include/c++/8/bits/concept_check.h:
-
-/usr/include/bits/types/FILE.h:
-
-/usr/include/bits/stdlib-float.h:
-
 /usr/include/c++/8/ext/alloc_traits.h:
 
 /usr/include/c++/8/bits/cpp_type_traits.h:
@@ -258,9 +286,33 @@ CMakeFiles/movie_lib.dir/src/FrontUI.cpp.o: src/FrontUI.cpp \
 
 /usr/include/c++/8/ext/string_conversions.h:
 
+/usr/include/c++/8/bits/localefwd.h:
+
+/usr/include/c++/8/bits/exception.h:
+
+/usr/include/bits/types/clock_t.h:
+
 /usr/include/c++/8/bits/stringfwd.h:
 
 /usr/include/bits/stdio_lim.h:
+
+/usr/include/stdint.h:
+
+/usr/include/c++/8/backward/binders.h:
+
+/usr/include/c++/8/exception:
+
+/usr/include/c++/8/bits/stl_pair.h:
+
+/usr/include/c++/8/bits/concept_check.h:
+
+/usr/include/bits/types/FILE.h:
+
+/usr/include/bits/stdlib-float.h:
+
+/usr/include/c++/8/x86_64-redhat-linux/bits/c++allocator.h:
+
+header/DBFilter.h:
 
 /usr/include/bits/long-double.h:
 
@@ -278,12 +330,6 @@ CMakeFiles/movie_lib.dir/src/FrontUI.cpp.o: src/FrontUI.cpp \
 
 /usr/include/c++/8/bits/postypes.h:
 
-/usr/include/c++/8/bits/localefwd.h:
-
-/usr/include/c++/8/bits/exception.h:
-
-/usr/include/bits/types/clock_t.h:
-
 /usr/include/gnu/stubs.h:
 
 /usr/include/c++/8/debug/debug.h:
@@ -293,6 +339,8 @@ CMakeFiles/movie_lib.dir/src/FrontUI.cpp.o: src/FrontUI.cpp \
 /usr/include/stdc-predef.h:
 
 /usr/include/c++/8/bits/basic_string.tcc:
+
+/usr/include/c++/8/bits/codecvt.h:
 
 /usr/include/bits/locale.h:
 
@@ -321,12 +369,6 @@ header/FrontUI.h:
 /usr/include/ctype.h:
 
 /usr/include/c++/8/cwchar:
-
-/usr/include/bits/uintn-identity.h:
-
-/usr/include/c++/8/bits/ostream_insert.h:
-
-/usr/include/c++/8/stdexcept:
 
 /usr/include/bits/libc-header-start.h:
 
@@ -362,13 +404,23 @@ header/FrontUI.h:
 
 /usr/include/bits/wchar.h:
 
+/usr/include/c++/8/sstream:
+
 /usr/include/c++/8/iosfwd:
 
 /usr/include/bits/types/__FILE.h:
 
+/usr/include/bits/uintn-identity.h:
+
+/usr/include/c++/8/bits/ostream_insert.h:
+
+/usr/include/c++/8/stdexcept:
+
 /usr/include/c++/8/x86_64-redhat-linux/bits/cpu_defines.h:
 
 /usr/include/c++/8/bits/ios_base.h:
+
+/usr/include/c++/8/bits/stl_bvector.h:
 
 /usr/include/bits/wctype-wchar.h:
 
@@ -391,6 +443,8 @@ header/FrontUI.h:
 /usr/include/bits/types/struct_timespec.h:
 
 /usr/include/time.h:
+
+header/movie.h:
 
 /usr/include/bits/time.h:
 
@@ -424,8 +478,6 @@ header/FrontUI.h:
 
 /usr/include/c++/8/string:
 
-/usr/include/c++/8/x86_64-redhat-linux/bits/c++allocator.h:
-
 /usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h:
 
 /usr/include/c++/8/ext/new_allocator.h:
@@ -446,6 +498,8 @@ header/FrontUI.h:
 
 /usr/include/c++/8/bits/basic_string.h:
 
+/usr/include/c++/8/fstream:
+
 /usr/include/c++/8/cstdlib:
 
 /usr/include/bits/waitflags.h:
@@ -463,6 +517,8 @@ header/FrontUI.h:
 /usr/include/bits/types/__sigset_t.h:
 
 /usr/include/alloca.h:
+
+/usr/include/c++/8/bits/stl_vector.h:
 
 /usr/include/c++/8/bits/memoryfwd.h:
 
@@ -501,5 +557,3 @@ src/FrontUI.cpp:
 /usr/include/c++/8/x86_64-redhat-linux/bits/ctype_base.h:
 
 /usr/include/c++/8/bits/ostream.tcc:
-
-/usr/include/c++/8/istream:

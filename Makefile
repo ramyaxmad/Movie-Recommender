@@ -276,6 +276,54 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/movieRec.dir/build.make CMakeFiles/movieRec.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/DBFilter.o: src/DBFilter.cpp.o
+.PHONY : src/DBFilter.o
+
+# target to build an object file
+src/DBFilter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/movie_lib.dir/build.make CMakeFiles/movie_lib.dir/src/DBFilter.cpp.o
+.PHONY : src/DBFilter.cpp.o
+
+src/DBFilter.i: src/DBFilter.cpp.i
+.PHONY : src/DBFilter.i
+
+# target to preprocess a source file
+src/DBFilter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/movie_lib.dir/build.make CMakeFiles/movie_lib.dir/src/DBFilter.cpp.i
+.PHONY : src/DBFilter.cpp.i
+
+src/DBFilter.s: src/DBFilter.cpp.s
+.PHONY : src/DBFilter.s
+
+# target to generate assembly for a file
+src/DBFilter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/movie_lib.dir/build.make CMakeFiles/movie_lib.dir/src/DBFilter.cpp.s
+.PHONY : src/DBFilter.cpp.s
+
+src/DBManager.o: src/DBManager.cpp.o
+.PHONY : src/DBManager.o
+
+# target to build an object file
+src/DBManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/movie_lib.dir/build.make CMakeFiles/movie_lib.dir/src/DBManager.cpp.o
+.PHONY : src/DBManager.cpp.o
+
+src/DBManager.i: src/DBManager.cpp.i
+.PHONY : src/DBManager.i
+
+# target to preprocess a source file
+src/DBManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/movie_lib.dir/build.make CMakeFiles/movie_lib.dir/src/DBManager.cpp.i
+.PHONY : src/DBManager.cpp.i
+
+src/DBManager.s: src/DBManager.cpp.s
+.PHONY : src/DBManager.s
+
+# target to generate assembly for a file
+src/DBManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/movie_lib.dir/build.make CMakeFiles/movie_lib.dir/src/DBManager.cpp.s
+.PHONY : src/DBManager.cpp.s
+
 src/FrontUI.o: src/FrontUI.cpp.o
 .PHONY : src/FrontUI.o
 
@@ -299,6 +347,54 @@ src/FrontUI.s: src/FrontUI.cpp.s
 src/FrontUI.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/movie_lib.dir/build.make CMakeFiles/movie_lib.dir/src/FrontUI.cpp.s
 .PHONY : src/FrontUI.cpp.s
+
+src/loginAuth.o: src/loginAuth.cpp.o
+.PHONY : src/loginAuth.o
+
+# target to build an object file
+src/loginAuth.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/movie_lib.dir/build.make CMakeFiles/movie_lib.dir/src/loginAuth.cpp.o
+.PHONY : src/loginAuth.cpp.o
+
+src/loginAuth.i: src/loginAuth.cpp.i
+.PHONY : src/loginAuth.i
+
+# target to preprocess a source file
+src/loginAuth.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/movie_lib.dir/build.make CMakeFiles/movie_lib.dir/src/loginAuth.cpp.i
+.PHONY : src/loginAuth.cpp.i
+
+src/loginAuth.s: src/loginAuth.cpp.s
+.PHONY : src/loginAuth.s
+
+# target to generate assembly for a file
+src/loginAuth.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/movie_lib.dir/build.make CMakeFiles/movie_lib.dir/src/loginAuth.cpp.s
+.PHONY : src/loginAuth.cpp.s
+
+src/movie.o: src/movie.cpp.o
+.PHONY : src/movie.o
+
+# target to build an object file
+src/movie.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/movie_lib.dir/build.make CMakeFiles/movie_lib.dir/src/movie.cpp.o
+.PHONY : src/movie.cpp.o
+
+src/movie.i: src/movie.cpp.i
+.PHONY : src/movie.i
+
+# target to preprocess a source file
+src/movie.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/movie_lib.dir/build.make CMakeFiles/movie_lib.dir/src/movie.cpp.i
+.PHONY : src/movie.cpp.i
+
+src/movie.s: src/movie.cpp.s
+.PHONY : src/movie.s
+
+# target to generate assembly for a file
+src/movie.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/movie_lib.dir/build.make CMakeFiles/movie_lib.dir/src/movie.cpp.s
+.PHONY : src/movie.cpp.s
 
 tests/test.o: tests/test.cpp.o
 .PHONY : tests/test.o
@@ -346,9 +442,21 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/DBFilter.o"
+	@echo "... src/DBFilter.i"
+	@echo "... src/DBFilter.s"
+	@echo "... src/DBManager.o"
+	@echo "... src/DBManager.i"
+	@echo "... src/DBManager.s"
 	@echo "... src/FrontUI.o"
 	@echo "... src/FrontUI.i"
 	@echo "... src/FrontUI.s"
+	@echo "... src/loginAuth.o"
+	@echo "... src/loginAuth.i"
+	@echo "... src/loginAuth.s"
+	@echo "... src/movie.o"
+	@echo "... src/movie.i"
+	@echo "... src/movie.s"
 	@echo "... tests/test.o"
 	@echo "... tests/test.i"
 	@echo "... tests/test.s"

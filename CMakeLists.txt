@@ -5,16 +5,19 @@ ADD_SUBDIRECTORY(googletest)
 
 SET(CMAKE_CXX_STANDARD 11)
 
-<<<<<<< HEAD
 # Make library
 add_library(movie_lib STATIC
   src/FrontUI.cpp
+  src/DBFilter.cpp
+  src/DBManager.cpp
+  src/loginAuth.cpp
+  src/movie.cpp
   # add all .cpp files here
 )
 target_include_directories(movie_lib
   PUBLIC 
     ${PROJECT_SOURCE_DIR}/header
-
+)
 # Make executables
 ADD_EXECUTABLE(runAllTests
   tests/test.cpp

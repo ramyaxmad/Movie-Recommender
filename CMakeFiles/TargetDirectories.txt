@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles/install/strip.dir
 /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles/install/local.dir
 /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles/install.dir
@@ -30,34 +29,3 @@
 /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/googletest/CMakeFiles/gtest.dir
 /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/googletest/CMakeFiles/rebuild_cache.dir
 /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/googletest/CMakeFiles/install.dir
-=======
-/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles/install/strip.dir
-/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles/edit_cache.dir
-/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles/install.dir
-/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles/rebuild_cache.dir
-/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles/runAllTests.dir
-/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles/list_install_components.dir
-/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles/install/local.dir
-/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/CMakeFiles/install/strip.dir
-/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/CMakeFiles/install.dir
-/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/CMakeFiles/install/local.dir
-/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/CMakeFiles/list_install_components.dir
-/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/CMakeFiles/edit_cache.dir
-/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/CMakeFiles/rebuild_cache.dir
-/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/googlemock/CMakeFiles/install/strip.dir
-/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/googlemock/CMakeFiles/install/local.dir
-/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/googlemock/CMakeFiles/gmock_main.dir
-/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/googlemock/CMakeFiles/list_install_components.dir
-/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/googlemock/CMakeFiles/gmock.dir
-/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/googlemock/CMakeFiles/rebuild_cache.dir
-/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/googlemock/CMakeFiles/edit_cache.dir
-/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/googlemock/CMakeFiles/install.dir
-/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/googletest/CMakeFiles/install/strip.dir
-/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/googletest/CMakeFiles/install/local.dir
-/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/googletest/CMakeFiles/edit_cache.dir
-/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/googletest/CMakeFiles/gtest_main.dir
-/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/googletest/CMakeFiles/list_install_components.dir
-/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/googletest/CMakeFiles/gtest.dir
-/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/googletest/CMakeFiles/rebuild_cache.dir
-/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/googletest/CMakeFiles/install.dir
->>>>>>> master

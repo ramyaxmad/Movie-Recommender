@@ -1,8 +1,11 @@
 #include "../header/FrontUI.h"
 #include "../header/loginAuth.h"
+#include "../header/DBManager.h"
+#include "../header/DBFilter.h"
 
 #include <iostream>
 #include <string>
+#include <vector>
 
 using namespace std;
 
@@ -10,34 +13,14 @@ FrontUI::FrontUI() {
     filter = new DBFilter();
 }
 
-void FrontUI::displayLoginMenu() {
-    cout << "MOVIE RECOMMENDER" << endl << endl;
-
-    while (true) {
-        cout << "Username: ";
-        string user;
-        getline(cin, user);
-        cin.ignore();
-
-        cout << "Password: ";
-        string pass;
-        getline(cin, pass);
-
-        loginAuthentication(user, pass);
-        if (validLogin())
-            cout << "Invalid. Please try again." << endl << endl;
-        else 
-            createLogin();
-            break;
-    }
-    cout << endl;
-    handleQuestion();
-}
-
 void FrontUI::handleQuestion() {
     int result;
-    int question = 1;
+    int question = 0;
     while (question != 6) {     //change 6??
+        if (question == 0) {
+            result = displayLoginMenu();
+            question += result;
+        }
         if (question == 1) {
             result = displayGenreQuestion();
             question += result;
@@ -61,10 +44,37 @@ void FrontUI::handleQuestion() {
     }
 }
 
+void FrontUI::displayLoginMenu() {
+    cout << "MOVIE RECOMMENDER" << endl << endl;
+
+    while (true) {
+        cout << "Username: ";
+        string user;
+        getline(cin, user);
+        cin.ignore();
+
+        cout << "Password: ";
+        string pass;
+        getline(cin, pass);
+
+        loginAuthentication(user, pass);
+        if (validLogin())
+            cout << "Invalid. Please try again." << endl << endl;
+        else 
+            createLogin();
+            break;
+    }
+    cout << endl;
+}
+
 int FrontUI::displayGenreQuestion() {
     string genre;
     while (true) {
-        cout << "Input a preferred GENRE (list of options) or press enter to leave blank: ";
+        cout << "* Action\n * Adventure\n * Animation\n * Children\'s\n * Comedy\n";
+        cout << "* Crime\n * Documentary\n * Drama\n * Fantasy\n * Film-Noir\n * Horror\n * Musical\n";
+        cout << "* Mystery\n * Romance\n * Sci-Fi\n * Thriller\n * War\n * Western\n" << endl << endl;
+
+        cout << "Input a preferred GENRE (from the list of options) or press enter to leave blank: ";
         getline(cin, genre);
         //if invalid
             cout << "Invalid. Please try again." << endl << endl;
@@ -129,32 +139,39 @@ int FrontUI::displayDirectorQuestion() {
 }
 
 int FrontUI::displayMovieList() {
-
     cout << "RECOMMENDED MOVIES: " << endl << endl;
     //call function to output list of movies
-    recMoviesList = filter.
-
-    while (true) {
-        cout << "Sortint Options: " << endl 
-        << "1. Most to least popular" << endl 
-        << "2. Latest to oldest" << endl 
-        << "3. Alphabetical order" << endl << endl;
-
-        cout << "To re-sort, select an option: "; 
-        int sortOption;
-        cin >> sortOption;
-        //if invalid input
-            //cout << "Invalid input. Please try again." << endl << endl;
-        //else if (no sort) {
-            //break
-        //}
-        //else {
-            cout << "RECOMMENDED MOVIES: " << endl << endl;
-            //call function to output list of movies
-        //}
+    recMoviesList = filter.recommendedMovies();
+    for (int i = 0; i < recMoviesList.size(); ++i) {
+        cout << i << ". ";
+        recMoviesList.at(i).output();
+        cout << endl;
     }
 
-    cout << "1. Restart (new list of movies)" << endl << "2. Logout" << endl << "Select an option: ";
-    int startOver;
-    cin >> startOver;
+    // while (true) {
+    //     cout << "Sortint Options: " << endl 
+    //     << "1. Latest to oldest" << endl 
+    //     << "2. Alphabetical order" << endl << endl;
+
+    //     cout << "To re-sort, select an option: "; 
+    //     int sortOption;
+    //     cin >> sortOption;
+    //     if (sortOption != 1 || sortOption != 2)
+    //         cout << "Invalid input. Please try again." << endl << endl;
+    //     else if (no sort) {
+    //         //break
+    //     //}
+    //     //else {
+    //         cout << "RECOMMENDED MOVIES: " << endl << endl;
+    //         //call function to output list of movies
+    //     //}
+    // }
+
+    cout << "if you would like to restart, type in \"1\": ";
+    int restart;
+    cin >> restart;
+    if (restart == 1)
+        return 1;
+    else 
+        return 6;
 }

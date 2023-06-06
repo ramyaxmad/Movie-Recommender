@@ -1,17 +1,8 @@
 file(REMOVE_RECURSE
-<<<<<<< HEAD
   "CMakeFiles/runAllTests.dir/tests/test.cpp.o"
   "CMakeFiles/runAllTests.dir/tests/test.cpp.o.d"
   "runAllTests"
   "runAllTests.pdb"
-=======
-  "CMakeFiles/runAllTests.dir/main.cpp.o"
-  "CMakeFiles/runAllTests.dir/main.cpp.o.d"
-  "CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o"
-  "CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o.d"
-  "bin/runAllTests"
-  "bin/runAllTests.pdb"
->>>>>>> master
 )
 
 # Per-language clean rules from dependency scanning.

@@ -83,17 +83,81 @@ CMakeFiles/movie_lib.dir/src/FrontUI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/movie_lib.dir/src/FrontUI.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/FrontUI.cpp -o CMakeFiles/movie_lib.dir/src/FrontUI.cpp.s
 
+CMakeFiles/movie_lib.dir/src/DBFilter.cpp.o: CMakeFiles/movie_lib.dir/flags.make
+CMakeFiles/movie_lib.dir/src/DBFilter.cpp.o: src/DBFilter.cpp
+CMakeFiles/movie_lib.dir/src/DBFilter.cpp.o: CMakeFiles/movie_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/movie_lib.dir/src/DBFilter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/movie_lib.dir/src/DBFilter.cpp.o -MF CMakeFiles/movie_lib.dir/src/DBFilter.cpp.o.d -o CMakeFiles/movie_lib.dir/src/DBFilter.cpp.o -c /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/DBFilter.cpp
+
+CMakeFiles/movie_lib.dir/src/DBFilter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/movie_lib.dir/src/DBFilter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/DBFilter.cpp > CMakeFiles/movie_lib.dir/src/DBFilter.cpp.i
+
+CMakeFiles/movie_lib.dir/src/DBFilter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/movie_lib.dir/src/DBFilter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/DBFilter.cpp -o CMakeFiles/movie_lib.dir/src/DBFilter.cpp.s
+
+CMakeFiles/movie_lib.dir/src/DBManager.cpp.o: CMakeFiles/movie_lib.dir/flags.make
+CMakeFiles/movie_lib.dir/src/DBManager.cpp.o: src/DBManager.cpp
+CMakeFiles/movie_lib.dir/src/DBManager.cpp.o: CMakeFiles/movie_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/movie_lib.dir/src/DBManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/movie_lib.dir/src/DBManager.cpp.o -MF CMakeFiles/movie_lib.dir/src/DBManager.cpp.o.d -o CMakeFiles/movie_lib.dir/src/DBManager.cpp.o -c /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/DBManager.cpp
+
+CMakeFiles/movie_lib.dir/src/DBManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/movie_lib.dir/src/DBManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/DBManager.cpp > CMakeFiles/movie_lib.dir/src/DBManager.cpp.i
+
+CMakeFiles/movie_lib.dir/src/DBManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/movie_lib.dir/src/DBManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/DBManager.cpp -o CMakeFiles/movie_lib.dir/src/DBManager.cpp.s
+
+CMakeFiles/movie_lib.dir/src/loginAuth.cpp.o: CMakeFiles/movie_lib.dir/flags.make
+CMakeFiles/movie_lib.dir/src/loginAuth.cpp.o: src/loginAuth.cpp
+CMakeFiles/movie_lib.dir/src/loginAuth.cpp.o: CMakeFiles/movie_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/movie_lib.dir/src/loginAuth.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/movie_lib.dir/src/loginAuth.cpp.o -MF CMakeFiles/movie_lib.dir/src/loginAuth.cpp.o.d -o CMakeFiles/movie_lib.dir/src/loginAuth.cpp.o -c /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/loginAuth.cpp
+
+CMakeFiles/movie_lib.dir/src/loginAuth.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/movie_lib.dir/src/loginAuth.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/loginAuth.cpp > CMakeFiles/movie_lib.dir/src/loginAuth.cpp.i
+
+CMakeFiles/movie_lib.dir/src/loginAuth.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/movie_lib.dir/src/loginAuth.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/loginAuth.cpp -o CMakeFiles/movie_lib.dir/src/loginAuth.cpp.s
+
+CMakeFiles/movie_lib.dir/src/movie.cpp.o: CMakeFiles/movie_lib.dir/flags.make
+CMakeFiles/movie_lib.dir/src/movie.cpp.o: src/movie.cpp
+CMakeFiles/movie_lib.dir/src/movie.cpp.o: CMakeFiles/movie_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/movie_lib.dir/src/movie.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/movie_lib.dir/src/movie.cpp.o -MF CMakeFiles/movie_lib.dir/src/movie.cpp.o.d -o CMakeFiles/movie_lib.dir/src/movie.cpp.o -c /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/movie.cpp
+
+CMakeFiles/movie_lib.dir/src/movie.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/movie_lib.dir/src/movie.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/movie.cpp > CMakeFiles/movie_lib.dir/src/movie.cpp.i
+
+CMakeFiles/movie_lib.dir/src/movie.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/movie_lib.dir/src/movie.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/movie.cpp -o CMakeFiles/movie_lib.dir/src/movie.cpp.s
+
 # Object files for target movie_lib
 movie_lib_OBJECTS = \
-"CMakeFiles/movie_lib.dir/src/FrontUI.cpp.o"
+"CMakeFiles/movie_lib.dir/src/FrontUI.cpp.o" \
+"CMakeFiles/movie_lib.dir/src/DBFilter.cpp.o" \
+"CMakeFiles/movie_lib.dir/src/DBManager.cpp.o" \
+"CMakeFiles/movie_lib.dir/src/loginAuth.cpp.o" \
+"CMakeFiles/movie_lib.dir/src/movie.cpp.o"
 
 # External object files for target movie_lib
 movie_lib_EXTERNAL_OBJECTS =
 
 libmovie_lib.a: CMakeFiles/movie_lib.dir/src/FrontUI.cpp.o
+libmovie_lib.a: CMakeFiles/movie_lib.dir/src/DBFilter.cpp.o
+libmovie_lib.a: CMakeFiles/movie_lib.dir/src/DBManager.cpp.o
+libmovie_lib.a: CMakeFiles/movie_lib.dir/src/loginAuth.cpp.o
+libmovie_lib.a: CMakeFiles/movie_lib.dir/src/movie.cpp.o
 libmovie_lib.a: CMakeFiles/movie_lib.dir/build.make
 libmovie_lib.a: CMakeFiles/movie_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libmovie_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libmovie_lib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/movie_lib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/movie_lib.dir/link.txt --verbose=$(VERBOSE)
 

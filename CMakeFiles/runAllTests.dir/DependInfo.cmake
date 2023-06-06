@@ -8,24 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-<<<<<<< HEAD
   "/home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/tests/test.cpp" "CMakeFiles/runAllTests.dir/tests/test.cpp.o" "gcc" "CMakeFiles/runAllTests.dir/tests/test.cpp.o.d"
-=======
-  "/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/main.cpp" "CMakeFiles/runAllTests.dir/main.cpp.o" "gcc" "CMakeFiles/runAllTests.dir/main.cpp.o.d"
-  "/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/src/loginAuth.cpp" "CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o" "gcc" "CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o.d"
->>>>>>> master
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-<<<<<<< HEAD
   "/home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles/movie_lib.dir/DependInfo.cmake"
   "/home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
-=======
-  "/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
-  "/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
-  "/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
->>>>>>> master
   )
 
 # Fortran module output directory.

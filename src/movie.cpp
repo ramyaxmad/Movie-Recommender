@@ -52,12 +52,13 @@ int Movie::getMovieID() const {
 
 void Movie::output() {
     // Print the details of the movie
-    cout << "Name: " << title << endl;
-    cout << "Genre: " << genre << endl;
-    cout << "Cast Member: " << castMember << endl;
-    cout << "Director: " << director << endl;
-    cout << "Language: " << language << endl;
-    cout << "Movie ID: " << movieID << endl;
-    cout << "Rating: " << rating << "/100" << endl;
+    cout << title << endl;
+    // cout << "Genre: " << genre << endl;
+    // cout << "Cast Member: " << castMember << endl;
+    // cout << "Director: " << director << endl;
+    // cout << "Language: " << language << endl;
+    // cout << "Movie ID: " << movieID << endl;
+    // cout << "Rating: " << rating << "/100" << endl;
+
 }
 

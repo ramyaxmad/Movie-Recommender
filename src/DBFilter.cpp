@@ -9,7 +9,7 @@ DBFilter::DBFilter() {
     allMovies = manager.getMovies();
 }
 void DBFilter::queryMovieByGenre(string genre) {
-    //indexing before query
+    //filling up MoviesByGenre vector
 }
 
 void DBFilter::queryMovieByCast(string castMember) {
@@ -25,5 +25,5 @@ void DBFilter::queryMovieByDirector(string director) {
 }
 
 vector<Movie> DBFilter::recommendedMovies() {
-    
+    return this->recommendedMovies;
 }
