@@ -4,10 +4,10 @@
 #include <iostream>
 #include <string>
 
-int main (int argc, char **argv) {
+int main () {
     while (true) {
         FrontUI start;
-        start.handleQuestions();
+        start.handleQuestion();
 
         cout << "If you would like to logout, type in \"logout\": ";
         string logout;

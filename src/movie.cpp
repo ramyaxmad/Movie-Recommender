@@ -5,13 +5,13 @@ using namespace std;
 
 Movie::Movie() {
     // Default constructor
+    movieID = 0;
+    title = "";
     genre = "";
     castMember = "";
     director = "";
     language = "";
-    movieID = 0;
     rating = 0;
-    title = "";
 }
 
 Movie::Movie(int movieID, string title, string genre, string castMember, string director, string language, int rating) {
@@ -26,6 +26,9 @@ Movie::Movie(int movieID, string title, string genre, string castMember, string 
     this->rating = rating;
 }
 
+string Movie::getTitle() const{
+    return title;
+}
 string Movie::getGenre() const {
     return genre;
 }
@@ -52,13 +55,12 @@ int Movie::getMovieID() const {
 
 void Movie::output() {
     // Print the details of the movie
-    cout << title << endl;
-    // cout << "Genre: " << genre << endl;
+    cout << "Movie ID: " << movieID << endl;
+    cout << "Name: " << title << endl;
+    cout << "Genre: " << genre << endl;
     // cout << "Cast Member: " << castMember << endl;
     // cout << "Director: " << director << endl;
     // cout << "Language: " << language << endl;
-    // cout << "Movie ID: " << movieID << endl;
-    // cout << "Rating: " << rating << "/100" << endl;
-
+    cout << "Rating: " << rating << "/100" << endl;
 }
 

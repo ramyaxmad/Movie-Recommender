@@ -4,8 +4,6 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include <fstream>
-#include <sstream>
 
 #include "movie.h"
 #include "DBManager.h"
@@ -22,7 +20,7 @@ private:
     vector<Movie> MoviesByLangauge;
     vector<Movie> MoviesByDirector;
 
-    vector<Movie> recommendedMovies;
+    vector<Movie> recommendMovies;
 public:
     DBFilter();
     void queryMovieByGenre(string genre);

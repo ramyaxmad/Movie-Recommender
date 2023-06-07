@@ -1,27 +1,36 @@
 #include "../header/DBManager.h"
+#include "../header/movie.h"
 
-void DBManager::LoadData(){ //parse data
+#include <iostream>
+#include <string>
+#include <vector>
+#include <fstream>
+#include <sstream>
+
+using namespace std;
+
+
+void DBManager::loadData(){ //parse data
     fstream inFS;
     string filename;
 
-    filename = "../data/movies.csv";
+    filename = "./data/movies.csv";
 
     inFS.open(filename);
 
     if (!inFS.is_open()){
-        cout << "File could not be opened" << endl;
+        cout << "Could not open file" << endl;
         exit(1);
     }
 
-    inFS.ignore(20, '\n'); //skip header line
+    string headerLine;
 
-    string line = "";
-    
-    while (getline(inFS, line)){
+    getline(inFS, headerLine); //skip header line
+
+    string line;
+    while (getline(inFS, line)){ 
         int movieID;
-        string title;
-        string genres;
-        string temp;
+        string title, genres, temp;
 
         stringstream inputString(line); //creates a string stream using the line grabbed from the file
 
@@ -30,16 +39,18 @@ void DBManager::LoadData(){ //parse data
         temp = "";
 
         getline(inputString, title, ',');
+
         getline(inputString, genres, ',');
 
         Movie newMovie = Movie(movieID, title, genres, "", "", "", 0);
-        this->Movies.push_back(newMovie);
+        this->movies.push_back(newMovie);
 
         line = "";
     }
 
-    // for (auto movie : this->Movies){
-    //      movie.output();
+    // for (int i = 0; i < 2; ++i){
+    //     movies.at(i).output();
+    //     cout << endl;
     // }
 
     
@@ -47,7 +58,8 @@ void DBManager::LoadData(){ //parse data
 }
 
 vector<Movie> DBManager::getMovies(){ //return parsed data
-    return Movies;
+    //loadData();
+    return movies;
 }
 
 // int main(){

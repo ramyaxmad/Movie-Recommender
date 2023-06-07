@@ -118,14 +118,14 @@ CMakeFiles/movie_lib.dir/src/FrontUI.cpp.o: \
  /usr/include/c++/8/bits/stl_uninitialized.h \
  /usr/include/c++/8/bits/stl_vector.h \
  /usr/include/c++/8/bits/stl_bvector.h /usr/include/c++/8/bits/vector.tcc \
+ /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/../header/movie.h \
+ /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/../header/DBManager.h \
  /usr/include/c++/8/fstream /usr/include/c++/8/bits/codecvt.h \
  /usr/include/c++/8/x86_64-redhat-linux/bits/basic_file.h \
  /usr/include/c++/8/x86_64-redhat-linux/bits/c++io.h \
  /usr/include/c++/8/bits/fstream.tcc /usr/include/c++/8/sstream \
  /usr/include/c++/8/bits/sstream.tcc \
- /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/../header/movie.h \
- /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/../header/DBManager.h \
- /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/../header/../header/movie.h \
  /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/../header/loginAuth.h \
  /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/../header/DBManager.h \
- /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/../header/DBFilter.h
+ /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/../header/DBFilter.h \
+ /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/../header/movie.h

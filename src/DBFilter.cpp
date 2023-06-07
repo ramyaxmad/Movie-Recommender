@@ -2,10 +2,11 @@
 #include <vector>
 #include <string>
 #include <iostream>
+
 using namespace std;
 
 DBFilter::DBFilter() {
-    manager.LoadData();
+    //manager.loadData();
     allMovies = manager.getMovies();
 }
 void DBFilter::queryMovieByGenre(string genre) {
@@ -25,5 +26,5 @@ void DBFilter::queryMovieByDirector(string director) {
 }
 
 vector<Movie> DBFilter::recommendedMovies() {
-    return this->recommendedMovies;
+    return this->recommendMovies;
 }

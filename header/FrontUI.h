@@ -6,18 +6,22 @@
 #include <string>
 #include <vector>
 
+using namespace std;
+
 class FrontUI {
     private:
         DBFilter filter;
         vector<Movie> recMoviesList;
     public:
         FrontUI();
-        void displayLoginMenu();
+        int displayLoginMenu();
         void handleQuestion();
         int displayGenreQuestion();
         int displayCastMemberQuestion();
         int displayLanguageQuestion();
         int displayDirectorQuestion();
         int displayMovieList();
+
+        bool validGenreString(string genre);
 };
 #endif

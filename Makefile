@@ -89,6 +89,16 @@ install/local/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+.PHONY : edit_cache/fast
+
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
@@ -100,16 +110,6 @@ install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-.PHONY : edit_cache/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -162,30 +162,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named movie_lib
+# Target rules for targets named runMain
 
 # Build rule for target.
-movie_lib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 movie_lib
-.PHONY : movie_lib
+runMain: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 runMain
+.PHONY : runMain
 
 # fast build rule for target.
-movie_lib/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/movie_lib.dir/build.make CMakeFiles/movie_lib.dir/build
-.PHONY : movie_lib/fast
-
-#=============================================================================
-# Target rules for targets named movieRec
-
-# Build rule for target.
-movieRec: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 movieRec
-.PHONY : movieRec
-
-# fast build rule for target.
-movieRec/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/movieRec.dir/build.make CMakeFiles/movieRec.dir/build
-.PHONY : movieRec/fast
+runMain/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runMain.dir/build.make CMakeFiles/runMain.dir/build
+.PHONY : runMain/fast
 
 #=============================================================================
 # Target rules for targets named runAllTests
@@ -257,7 +244,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/movieRec.dir/build.make CMakeFiles/movieRec.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runMain.dir/build.make CMakeFiles/runMain.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -265,7 +252,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/movieRec.dir/build.make CMakeFiles/movieRec.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runMain.dir/build.make CMakeFiles/runMain.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -273,39 +260,15 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/movieRec.dir/build.make CMakeFiles/movieRec.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runMain.dir/build.make CMakeFiles/runMain.dir/main.cpp.s
 .PHONY : main.cpp.s
-
-src/DBFilter.o: src/DBFilter.cpp.o
-.PHONY : src/DBFilter.o
-
-# target to build an object file
-src/DBFilter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/movie_lib.dir/build.make CMakeFiles/movie_lib.dir/src/DBFilter.cpp.o
-.PHONY : src/DBFilter.cpp.o
-
-src/DBFilter.i: src/DBFilter.cpp.i
-.PHONY : src/DBFilter.i
-
-# target to preprocess a source file
-src/DBFilter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/movie_lib.dir/build.make CMakeFiles/movie_lib.dir/src/DBFilter.cpp.i
-.PHONY : src/DBFilter.cpp.i
-
-src/DBFilter.s: src/DBFilter.cpp.s
-.PHONY : src/DBFilter.s
-
-# target to generate assembly for a file
-src/DBFilter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/movie_lib.dir/build.make CMakeFiles/movie_lib.dir/src/DBFilter.cpp.s
-.PHONY : src/DBFilter.cpp.s
 
 src/DBManager.o: src/DBManager.cpp.o
 .PHONY : src/DBManager.o
 
 # target to build an object file
 src/DBManager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/movie_lib.dir/build.make CMakeFiles/movie_lib.dir/src/DBManager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/DBManager.cpp.o
 .PHONY : src/DBManager.cpp.o
 
 src/DBManager.i: src/DBManager.cpp.i
@@ -313,7 +276,7 @@ src/DBManager.i: src/DBManager.cpp.i
 
 # target to preprocess a source file
 src/DBManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/movie_lib.dir/build.make CMakeFiles/movie_lib.dir/src/DBManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/DBManager.cpp.i
 .PHONY : src/DBManager.cpp.i
 
 src/DBManager.s: src/DBManager.cpp.s
@@ -321,39 +284,15 @@ src/DBManager.s: src/DBManager.cpp.s
 
 # target to generate assembly for a file
 src/DBManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/movie_lib.dir/build.make CMakeFiles/movie_lib.dir/src/DBManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/DBManager.cpp.s
 .PHONY : src/DBManager.cpp.s
-
-src/FrontUI.o: src/FrontUI.cpp.o
-.PHONY : src/FrontUI.o
-
-# target to build an object file
-src/FrontUI.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/movie_lib.dir/build.make CMakeFiles/movie_lib.dir/src/FrontUI.cpp.o
-.PHONY : src/FrontUI.cpp.o
-
-src/FrontUI.i: src/FrontUI.cpp.i
-.PHONY : src/FrontUI.i
-
-# target to preprocess a source file
-src/FrontUI.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/movie_lib.dir/build.make CMakeFiles/movie_lib.dir/src/FrontUI.cpp.i
-.PHONY : src/FrontUI.cpp.i
-
-src/FrontUI.s: src/FrontUI.cpp.s
-.PHONY : src/FrontUI.s
-
-# target to generate assembly for a file
-src/FrontUI.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/movie_lib.dir/build.make CMakeFiles/movie_lib.dir/src/FrontUI.cpp.s
-.PHONY : src/FrontUI.cpp.s
 
 src/loginAuth.o: src/loginAuth.cpp.o
 .PHONY : src/loginAuth.o
 
 # target to build an object file
 src/loginAuth.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/movie_lib.dir/build.make CMakeFiles/movie_lib.dir/src/loginAuth.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o
 .PHONY : src/loginAuth.cpp.o
 
 src/loginAuth.i: src/loginAuth.cpp.i
@@ -361,7 +300,7 @@ src/loginAuth.i: src/loginAuth.cpp.i
 
 # target to preprocess a source file
 src/loginAuth.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/movie_lib.dir/build.make CMakeFiles/movie_lib.dir/src/loginAuth.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/loginAuth.cpp.i
 .PHONY : src/loginAuth.cpp.i
 
 src/loginAuth.s: src/loginAuth.cpp.s
@@ -369,7 +308,7 @@ src/loginAuth.s: src/loginAuth.cpp.s
 
 # target to generate assembly for a file
 src/loginAuth.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/movie_lib.dir/build.make CMakeFiles/movie_lib.dir/src/loginAuth.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/loginAuth.cpp.s
 .PHONY : src/loginAuth.cpp.s
 
 src/movie.o: src/movie.cpp.o
@@ -377,7 +316,7 @@ src/movie.o: src/movie.cpp.o
 
 # target to build an object file
 src/movie.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/movie_lib.dir/build.make CMakeFiles/movie_lib.dir/src/movie.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/movie.cpp.o
 .PHONY : src/movie.cpp.o
 
 src/movie.i: src/movie.cpp.i
@@ -385,7 +324,7 @@ src/movie.i: src/movie.cpp.i
 
 # target to preprocess a source file
 src/movie.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/movie_lib.dir/build.make CMakeFiles/movie_lib.dir/src/movie.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/movie.cpp.i
 .PHONY : src/movie.cpp.i
 
 src/movie.s: src/movie.cpp.s
@@ -393,7 +332,7 @@ src/movie.s: src/movie.cpp.s
 
 # target to generate assembly for a file
 src/movie.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/movie_lib.dir/build.make CMakeFiles/movie_lib.dir/src/movie.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/movie.cpp.s
 .PHONY : src/movie.cpp.s
 
 tests/test.o: tests/test.cpp.o
@@ -436,21 +375,14 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... movieRec"
-	@echo "... movie_lib"
 	@echo "... runAllTests"
+	@echo "... runMain"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/DBFilter.o"
-	@echo "... src/DBFilter.i"
-	@echo "... src/DBFilter.s"
 	@echo "... src/DBManager.o"
 	@echo "... src/DBManager.i"
 	@echo "... src/DBManager.s"
-	@echo "... src/FrontUI.o"
-	@echo "... src/FrontUI.i"
-	@echo "... src/FrontUI.s"
 	@echo "... src/loginAuth.o"
 	@echo "... src/loginAuth.i"
 	@echo "... src/loginAuth.s"

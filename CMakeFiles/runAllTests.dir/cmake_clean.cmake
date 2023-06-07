@@ -1,8 +1,14 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/runAllTests.dir/src/DBManager.cpp.o"
+  "CMakeFiles/runAllTests.dir/src/DBManager.cpp.o.d"
+  "CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o"
+  "CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o.d"
+  "CMakeFiles/runAllTests.dir/src/movie.cpp.o"
+  "CMakeFiles/runAllTests.dir/src/movie.cpp.o.d"
   "CMakeFiles/runAllTests.dir/tests/test.cpp.o"
   "CMakeFiles/runAllTests.dir/tests/test.cpp.o.d"
-  "runAllTests"
-  "runAllTests.pdb"
+  "bin/runAllTests"
+  "bin/runAllTests.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

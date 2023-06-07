@@ -2,6 +2,7 @@
 #include "../header/loginAuth.h"
 #include "../header/DBManager.h"
 #include "../header/DBFilter.h"
+#include "../header/movie.h"
 
 #include <iostream>
 #include <string>
@@ -10,7 +11,7 @@
 using namespace std;
 
 FrontUI::FrontUI() {
-    filter = new DBFilter();
+    //filter = new DBFilter();
 }
 
 void FrontUI::handleQuestion() {
@@ -44,7 +45,7 @@ void FrontUI::handleQuestion() {
     }
 }
 
-void FrontUI::displayLoginMenu() {
+int FrontUI::displayLoginMenu() {
     cout << "MOVIE RECOMMENDER" << endl << endl;
 
     while (true) {
@@ -57,14 +58,15 @@ void FrontUI::displayLoginMenu() {
         string pass;
         getline(cin, pass);
 
-        loginAuthentication(user, pass);
-        if (validLogin())
+        loginAuthentication *login = new loginAuthentication(user, pass);
+        if (login->validLogin())
             cout << "Invalid. Please try again." << endl << endl;
         else 
-            createLogin();
+            login->createLogin();
             break;
     }
     cout << endl;
+    return 1;
 }
 
 int FrontUI::displayGenreQuestion() {
@@ -76,7 +78,9 @@ int FrontUI::displayGenreQuestion() {
 
         cout << "Input a preferred GENRE (from the list of options) or press enter to leave blank: ";
         getline(cin, genre);
-        //if invalid
+        if (genre == "")
+            break;
+        else if (!validGenreString(genre))
             cout << "Invalid. Please try again." << endl << endl;
         else
             break;
@@ -85,6 +89,17 @@ int FrontUI::displayGenreQuestion() {
     filter.queryMovieByGenre(genre);
     cout << endl;
     return 1;
+}
+
+bool FrontUI::validGenreString(string genre) {
+    vector<string> genres = {"Action", "Adventure", "Animation", "Children's", "Comedy", 
+                             "Crime", "Documentary", "Drama", "Fantasy", "Film-Noir", "Horror", 
+                             "Musical", "Mystery", "Romance", "Sci-Fi", "Thriller", "War", "Western"};
+    for (int i = 0; i < genres.size(); ++i) {
+        if (genres.at(i) == genre)
+            return true;
+    }
+    return false;
 }
 
 int FrontUI::displayCastMemberQuestion() {
@@ -109,7 +124,7 @@ int FrontUI::displayLanguageQuestion() {
     string language;
     getline(cin, language);
     //pass string into movie list generator
-    filter.queryMovieByLanguage(string);
+    filter.queryMovieByLanguage(language);
 
     cout << endl << endl << "Enter \"-\" to go to previous question (genre): ";
     string goBack;
