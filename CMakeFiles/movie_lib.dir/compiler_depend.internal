@@ -175,7 +175,7 @@ CMakeFiles/movie_lib.dir/src/DBFilter.cpp.o
  /usr/include/c++/8/bits/stl_vector.h
  /usr/include/c++/8/bits/stl_bvector.h
  /usr/include/c++/8/bits/vector.tcc
- /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/header/Movie.h
+ /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/header/movie.h
  /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/header/DBManager.h
  /usr/include/c++/8/fstream
  /usr/include/c++/8/bits/codecvt.h
@@ -366,8 +366,8 @@ CMakeFiles/movie_lib.dir/src/DBManager.cpp.o
  /usr/include/c++/8/bits/fstream.tcc
  /usr/include/c++/8/sstream
  /usr/include/c++/8/bits/sstream.tcc
- /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/header/Movie.h
- /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/header/Movie.h
+ /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/header/movie.h
+ /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/header/movie.h
 
 CMakeFiles/movie_lib.dir/src/FrontUI.cpp.o
  /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/FrontUI.cpp
@@ -544,7 +544,7 @@ CMakeFiles/movie_lib.dir/src/FrontUI.cpp.o
  /usr/include/c++/8/bits/stl_vector.h
  /usr/include/c++/8/bits/stl_bvector.h
  /usr/include/c++/8/bits/vector.tcc
- /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/header/Movie.h
+ /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/header/movie.h
  /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/header/DBManager.h
  /usr/include/c++/8/fstream
  /usr/include/c++/8/bits/codecvt.h
@@ -556,7 +556,7 @@ CMakeFiles/movie_lib.dir/src/FrontUI.cpp.o
  /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/header/loginAuth.h
  /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/header/DBManager.h
  /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/header/DBFilter.h
- /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/header/Movie.h
+ /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/header/movie.h
 
 CMakeFiles/movie_lib.dir/src/loginAuth.cpp.o
  /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/loginAuth.cpp

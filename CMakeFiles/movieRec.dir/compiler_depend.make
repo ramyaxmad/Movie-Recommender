@@ -175,7 +175,7 @@ CMakeFiles/movieRec.dir/main.cpp.o: main.cpp \
   /usr/include/c++/8/bits/stl_vector.h \
   /usr/include/c++/8/bits/stl_bvector.h \
   /usr/include/c++/8/bits/vector.tcc \
-  header/Movie.h \
+  header/movie.h \
   header/DBManager.h \
   /usr/include/c++/8/fstream \
   /usr/include/c++/8/bits/codecvt.h \
@@ -195,8 +195,6 @@ CMakeFiles/movieRec.dir/main.cpp.o: main.cpp \
 /usr/include/c++/8/x86_64-redhat-linux/bits/basic_file.h:
 
 header/DBManager.h:
-
-header/Movie.h:
 
 /usr/include/c++/8/bits/vector.tcc:
 
@@ -441,6 +439,8 @@ header/FrontUI.h:
 /usr/include/time.h:
 
 /usr/include/bits/types/struct_sched_param.h:
+
+header/movie.h:
 
 /usr/include/bits/time.h:
 

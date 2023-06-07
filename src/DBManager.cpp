@@ -1,13 +1,5 @@
 #include "../header/DBManager.h"
-#include "../header/movie.h"
 
-#include <iostream>
-#include <string>
-#include <vector>
-#include <fstream>
-#include <sstream>
-
-using namespace std;
 
 
 void DBManager::loadData(){ //parse data
@@ -53,18 +45,16 @@ void DBManager::loadData(){ //parse data
     //     cout << endl;
     // }
 
-    
+
     inFS.close();
 }
 
 vector<Movie> DBManager::getMovies(){ //return parsed data
-    //loadData();
+    loadData();
     return movies;
 }
 
 // int main(){
 //     DBManager db;
 //     db.LoadData();
-    
-    
 // }

@@ -4,7 +4,8 @@
 #include <iostream>
 using namespace std;
 
-struct Movie {
+
+class Movie {
     private:
         int movieID;
         string title;
@@ -13,7 +14,8 @@ struct Movie {
         string director;
         string language;
         int rating; //rating should be an int then we can print out of 100 or as a percent ex. cout 10 + "%"
-        //string name;
+    
+    
     public:
         Movie();
         Movie(int movieID, string title, string genre, string castMember, string director, string language, int rating);

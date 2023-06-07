@@ -1,8 +1,8 @@
 #include "../header/FrontUI.h"
-#include "../header/loginAuth.h"
-#include "../header/DBManager.h"
-#include "../header/DBFilter.h"
-#include "../header/movie.h"
+// #include "../header/loginAuth.h"
+// #include "../header/DBManager.h"
+// #include "../header/DBFilter.h"
+// #include "../header/movie.h"
 
 #include <iostream>
 #include <string>

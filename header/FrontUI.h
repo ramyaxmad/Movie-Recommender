@@ -2,6 +2,10 @@
 #define FRONT_UI_H
 
 #include "DBFilter.h"
+#include "loginAuth.h"
+#include "DBManager.h"
+#include "movie.h"
+
 #include <iostream>
 #include <string>
 #include <vector>

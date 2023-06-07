@@ -174,7 +174,7 @@ CMakeFiles/movie_lib.dir/src/DBFilter.cpp.o: src/DBFilter.cpp \
   /usr/include/c++/8/bits/stl_vector.h \
   /usr/include/c++/8/bits/stl_bvector.h \
   /usr/include/c++/8/bits/vector.tcc \
-  header/Movie.h \
+  header/movie.h \
   header/DBManager.h \
   /usr/include/c++/8/fstream \
   /usr/include/c++/8/bits/codecvt.h \
@@ -364,8 +364,8 @@ CMakeFiles/movie_lib.dir/src/DBManager.cpp.o: src/DBManager.cpp \
   /usr/include/c++/8/bits/fstream.tcc \
   /usr/include/c++/8/sstream \
   /usr/include/c++/8/bits/sstream.tcc \
-  header/Movie.h \
-  header/Movie.h
+  header/movie.h \
+  header/movie.h
 
 CMakeFiles/movie_lib.dir/src/FrontUI.cpp.o: src/FrontUI.cpp \
   /usr/include/stdc-predef.h \
@@ -541,7 +541,7 @@ CMakeFiles/movie_lib.dir/src/FrontUI.cpp.o: src/FrontUI.cpp \
   /usr/include/c++/8/bits/stl_vector.h \
   /usr/include/c++/8/bits/stl_bvector.h \
   /usr/include/c++/8/bits/vector.tcc \
-  header/Movie.h \
+  header/movie.h \
   header/DBManager.h \
   /usr/include/c++/8/fstream \
   /usr/include/c++/8/bits/codecvt.h \
@@ -553,7 +553,7 @@ CMakeFiles/movie_lib.dir/src/FrontUI.cpp.o: src/FrontUI.cpp \
   header/loginAuth.h \
   header/DBManager.h \
   header/DBFilter.h \
-  header/Movie.h
+  header/movie.h
 
 CMakeFiles/movie_lib.dir/src/loginAuth.cpp.o: src/loginAuth.cpp \
   /usr/include/stdc-predef.h \
@@ -912,8 +912,6 @@ src/DBManager.cpp:
 /usr/include/c++/8/x86_64-redhat-linux/bits/basic_file.h:
 
 header/DBManager.h:
-
-header/Movie.h:
 
 /usr/include/c++/8/bits/vector.tcc:
 
