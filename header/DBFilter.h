@@ -2,26 +2,34 @@
 #define DBFILTER_H
 
 #include <iostream>
+#include <string>
 #include <vector>
-#include "Movie.h"  // Include the Movie class header file
+#include <fstream>
+#include <sstream>
+
+#include "movie.h"
+#include "DBManager.h"
 
 using namespace std;
 
 class DBFilter {
 private:
+    DBManager manager;
+    vector<Movie> allMovies;
+
     vector<Movie> MoviesByGenre;
     vector<Movie> MoviesByCast;
-    vector<Movie> MoviesByLanguage;
+    vector<Movie> MoviesByLangauge;
     vector<Movie> MoviesByDirector;
-protected:
-    vector<Movie> recommendedMovies;
 
+    vector<Movie> recommendedMovies;
 public:
+    DBFilter();
     void queryMovieByGenre(string genre);
-    void queryMovieByCast(string cast);
+    void queryMovieByCast(string castMember);
     void queryMovieByLanguage(string language);
     void queryMovieByDirector(string director);
-    
+    vector<Movie> recommendedMovies();
 };
 
 #endif
