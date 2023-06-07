@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int main () {
+int main() {
     while (true) {
         FrontUI start;
         start.handleQuestion();

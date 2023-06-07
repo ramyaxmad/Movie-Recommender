@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/movieRecommender.dir/main.cpp.o"
   "CMakeFiles/movieRecommender.dir/main.cpp.o.d"
-  "bin/movieRecommender"
-  "bin/movieRecommender.pdb"
+  "movieRecommender"
+  "movieRecommender.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

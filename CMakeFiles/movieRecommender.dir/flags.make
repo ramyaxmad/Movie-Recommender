@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/header
 
-CXX_FLAGS = 
+CXX_FLAGS = -std=gnu++11
 

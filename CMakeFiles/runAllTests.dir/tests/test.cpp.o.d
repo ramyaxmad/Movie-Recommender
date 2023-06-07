@@ -201,10 +201,4 @@ CMakeFiles/runAllTests.dir/tests/test.cpp.o: \
  /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/googletest/include/gtest/gtest-typed-test.h \
  /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/googletest/include/gtest/gtest_pred_impl.h \
  /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/googletest/include/gtest/gtest_prod.h \
- /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/tests/../header/movie.h \
- /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/tests/../header/DBManager.h \
- /usr/include/c++/8/fstream \
- /usr/include/c++/8/x86_64-redhat-linux/bits/basic_file.h \
- /usr/include/c++/8/x86_64-redhat-linux/bits/c++io.h \
- /usr/include/c++/8/bits/fstream.tcc \
- /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/tests/../header/../header/movie.h
+ /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/tests/../header/movie.h

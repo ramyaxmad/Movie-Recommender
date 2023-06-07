@@ -1,7 +1,6 @@
 #include "../header/DBManager.h"
 
 
-
 void DBManager::loadData(){ //parse data
     fstream inFS;
     string filename;

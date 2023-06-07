@@ -364,7 +364,6 @@ CMakeFiles/movie_lib.dir/src/DBManager.cpp.o: src/DBManager.cpp \
   /usr/include/c++/8/bits/fstream.tcc \
   /usr/include/c++/8/sstream \
   /usr/include/c++/8/bits/sstream.tcc \
-  header/movie.h \
   header/movie.h
 
 CMakeFiles/movie_lib.dir/src/FrontUI.cpp.o: src/FrontUI.cpp \
@@ -550,10 +549,7 @@ CMakeFiles/movie_lib.dir/src/FrontUI.cpp.o: src/FrontUI.cpp \
   /usr/include/c++/8/bits/fstream.tcc \
   /usr/include/c++/8/sstream \
   /usr/include/c++/8/bits/sstream.tcc \
-  header/loginAuth.h \
-  header/DBManager.h \
-  header/DBFilter.h \
-  header/movie.h
+  header/loginAuth.h
 
 CMakeFiles/movie_lib.dir/src/loginAuth.cpp.o: src/loginAuth.cpp \
   /usr/include/stdc-predef.h \

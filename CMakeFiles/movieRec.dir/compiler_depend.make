@@ -183,8 +183,11 @@ CMakeFiles/movieRec.dir/main.cpp.o: main.cpp \
   /usr/include/c++/8/x86_64-redhat-linux/bits/c++io.h \
   /usr/include/c++/8/bits/fstream.tcc \
   /usr/include/c++/8/sstream \
-  /usr/include/c++/8/bits/sstream.tcc
+  /usr/include/c++/8/bits/sstream.tcc \
+  header/loginAuth.h
 
+
+header/loginAuth.h:
 
 /usr/include/c++/8/bits/sstream.tcc:
 

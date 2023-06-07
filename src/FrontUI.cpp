@@ -11,7 +11,7 @@
 using namespace std;
 
 FrontUI::FrontUI() {
-    //filter = new DBFilter();
+    filter = DBFilter();
 }
 
 void FrontUI::handleQuestion() {
@@ -21,26 +21,32 @@ void FrontUI::handleQuestion() {
         if (question == 0) {
             result = displayLoginMenu();
             question += result;
+            cout << question << endl;
         }
         if (question == 1) {
             result = displayGenreQuestion();
             question += result;
+            cout << question << endl;
         }
         if (question == 2) {
             result = displayCastMemberQuestion();
             question += result;
+            cout << question << endl;
         }
         if (question == 3) {
             result = displayLanguageQuestion();
             question += result;
+            cout << question << endl;
         }
         if (question == 4) {
             result = displayDirectorQuestion();
             question += result;
+            cout << question << endl;
         }
         if (question == 5) {
             result = displayMovieList();
             question = result;
+            cout << question << endl;
         }
     }
 }
@@ -52,25 +58,28 @@ int FrontUI::displayLoginMenu() {
         cout << "Username: ";
         string user;
         getline(cin, user);
-        cin.ignore();
-
+        //cin.ignore();
+        cout << user;
         cout << "Password: ";
         string pass;
         getline(cin, pass);
+        cout << pass;
 
         loginAuthentication *login = new loginAuthentication(user, pass);
-        if (login->validLogin())
+        if (login->validLogin() == false)
             cout << "Invalid. Please try again." << endl << endl;
-        else 
-            login->createLogin();
+        else {
+            //login->createLogin();
+            cout << "creates login";
             break;
+        }
     }
     cout << endl;
     return 1;
 }
 
 int FrontUI::displayGenreQuestion() {
-    string genre;
+    string genre = "";
     while (true) {
         cout << "* Action\n * Adventure\n * Animation\n * Children\'s\n * Comedy\n";
         cout << "* Crime\n * Documentary\n * Drama\n * Fantasy\n * Film-Noir\n * Horror\n * Musical\n";
@@ -111,7 +120,7 @@ int FrontUI::displayCastMemberQuestion() {
 
     cout << endl << endl << "Enter \"-\" to go to previous question (genre): ";
     string goBack;
-    cin >> goBack;
+    getline(cin, goBack);
     cout << endl;
     if (goBack == "-")
         return -1;
@@ -126,9 +135,9 @@ int FrontUI::displayLanguageQuestion() {
     //pass string into movie list generator
     filter.queryMovieByLanguage(language);
 
-    cout << endl << endl << "Enter \"-\" to go to previous question (genre): ";
+    cout << endl << endl << "Enter \"-\" to go to previous question (cast member): ";
     string goBack;
-    cin >> goBack;
+    getline(cin, goBack);
     cout << endl;
     if (goBack == "-")
         return -1;
@@ -137,15 +146,15 @@ int FrontUI::displayLanguageQuestion() {
 }
 
 int FrontUI::displayDirectorQuestion() {
-    cout << "Input a preferred LANGUAGE or press enter to leave blank: ";
+    cout << "Input a preferred DIRECTOR or press enter to leave blank: ";
     string director;
     getline(cin, director);
     //pass string into movie list generator
     filter.queryMovieByDirector(director);
 
-    cout << endl << endl << "Enter \"-\" to go to previous question (genre): ";
+    cout << endl << endl << "Enter \"-\" to go to previous question (language): ";
     string goBack;
-    cin >> goBack;
+    getline(cin, goBack);
     cout << endl;
     if (goBack == "-")
         return -1;
@@ -157,6 +166,7 @@ int FrontUI::displayMovieList() {
     cout << "RECOMMENDED MOVIES: " << endl << endl;
     //call function to output list of movies
     recMoviesList = filter.recommendedMovies();
+
     for (int i = 0; i < recMoviesList.size(); ++i) {
         cout << i << ". ";
         recMoviesList.at(i).output();

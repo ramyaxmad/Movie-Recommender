@@ -21,6 +21,7 @@ private:
     vector<Movie> MoviesByDirector;
 
     vector<Movie> recommendMovies;
+    
 public:
     DBFilter();
     void queryMovieByGenre(string genre);
