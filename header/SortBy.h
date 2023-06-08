@@ -7,9 +7,7 @@
 
 using namespace std;
 
-class sortBy {
-    private:
-       
+class sortBy :public DBFilter{
     public:
         SortByMostPopular();
         SortByMostRecent();

@@ -21,7 +21,7 @@ private:
     vector<Movie> MoviesByCast;
     vector<Movie> MoviesByLangauge;
     vector<Movie> MoviesByDirector;
-
+protected:
     vector<Movie> recommendedMovies;
 public:
     DBFilter();

@@ -1,3 +1,7 @@
+#include "../header/recMovies.h"
+#include <iostream>
+
+using namespace std;
 
 RecMovies::RecMovies(){
     size = 0;
