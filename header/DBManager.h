@@ -6,7 +6,7 @@
 #include <vector>
 #include <fstream>
 #include <sstream>
-#include "../header/movie.h"
+#include "movie.h"
 
 using namespace std;
 

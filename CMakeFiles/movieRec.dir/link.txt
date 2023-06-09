@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/movieRec.dir/main.cpp.o -o movieRec  libmovie_lib.a 

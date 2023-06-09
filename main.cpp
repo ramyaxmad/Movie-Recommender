@@ -1,19 +1,21 @@
-#include "header/loginAuth.h"
-#include "gtest/gtest.h"
+#include "header/FrontUI.h"
 
-int main () {
-    string user;
-    string pass;
-    
-    cout << "Enter a username: " ;
-    cin >> user;
-    cout << "Enter a password: ";
-    cin >> pass;
-    
-    loginAuthentication login = loginAuthentication(pass, user);
+#include <iostream>
+#include <string>
 
+using namespace std;
 
-    login.readFiles();
+int main() {
+    while (true) {
+        FrontUI start;
+        start.handleQuestion();
 
+        cout << "If you would like to logout, type in \"logout\": ";
+        string logout;
+        getline(cin, logout);
+
+        if (logout != "logout")
+            break;
+    }
     return 0;
 }

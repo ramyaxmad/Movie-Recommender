@@ -58,4 +58,3 @@ vector<Movie> DBManager::getMovies(){ //return parsed data
 //     DBManager db;
 //     db.loadData();
 // }
-
