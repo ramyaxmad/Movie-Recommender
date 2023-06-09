@@ -51,23 +51,42 @@ int FrontUI::displayLoginMenu() {
     cout << "MOVIE RECOMMENDER" << endl << endl;
 
     while (true) {
-        cout << "Username: ";
-        string user;
-        getline(cin, user);
+        cout << "Welcome! Are you a new user? Type yes or no";
+        string newUser;
+        getline(cin, newUser);
+        if (newUser == "yes") {
+            cout << "Username: ";
+            string user;
+            getline(cin, user);
 
-        cout << "Password: ";
-        string pass;
-        getline(cin, pass);
-
-        loginAuthentication *login = new loginAuthentication(user, pass);
-        if (login->validLogin() == false)
-            cout << "Invalid. Please try again." << endl << endl;
-        else {
+            cout << "Password: ";
+            string pass;
+            getline(cin, pass);
+            loginAuthentication *login = new loginAuthentication(user, pass);
             login->createLogin();
             cout << "creates login";
+            delete login;
             break;
         }
-        delete login;
+        else if (newUser == "no"){
+            cout << "Username: ";
+            string user;
+            getline(cin, user);
+
+            cout << "Password: ";
+            string pass;
+            getline(cin, pass);
+            loginAuthentication *login = new loginAuthentication(user, pass);
+            if (login->validLogin() == false)
+                cout << "Invalid. Please try again." << endl << endl;
+            else {
+                delete login;
+                break;
+            }
+        }
+        else {
+            cout << "Invalid Input. Enter yes or no.";
+        }
     }
     cout << endl;
     return 1;
