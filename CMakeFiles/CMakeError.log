@@ -1,0 +1,120 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5fb72/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5fb72.dir/build.make CMakeFiles/cmTC_5fb72.dir/build
+gmake[1]: Entering directory '/data/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5fb72.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_5fb72.dir/src.c.o -c /home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5fb72
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fb72.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_5fb72.dir/src.c.o -o cmTC_5fb72 
+CMakeFiles/cmTC_5fb72.dir/src.c.o: In function `main':
+src.c:(.text+0x2d): undefined reference to `pthread_create'
+src.c:(.text+0x39): undefined reference to `pthread_detach'
+src.c:(.text+0x45): undefined reference to `pthread_cancel'
+src.c:(.text+0x56): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_5fb72.dir/build.make:99: cmTC_5fb72] Error 1
+gmake[1]: Leaving directory '/data/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_5fb72/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ae430/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ae430.dir/build.make CMakeFiles/cmTC_ae430.dir/build
+gmake[1]: Entering directory '/data/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ae430.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_ae430.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ae430
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae430.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_ae430.dir/CheckFunctionExists.c.o -o cmTC_ae430  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_ae430.dir/build.make:99: cmTC_ae430] Error 1
+gmake[1]: Leaving directory '/data/home/csmajs/wchoi053/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_ae430/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/csmajs/bpham082/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_080a6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_080a6.dir/build.make CMakeFiles/cmTC_080a6.dir/build
+gmake[1]: Entering directory '/data/home/csmajs/bpham082/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_080a6.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_080a6.dir/src.c.o -c /home/csmajs/bpham082/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_080a6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_080a6.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_080a6.dir/src.c.o -o cmTC_080a6 
+CMakeFiles/cmTC_080a6.dir/src.c.o: In function `main':
+src.c:(.text+0x2d): undefined reference to `pthread_create'
+src.c:(.text+0x39): undefined reference to `pthread_detach'
+src.c:(.text+0x45): undefined reference to `pthread_cancel'
+src.c:(.text+0x56): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_080a6.dir/build.make:99: cmTC_080a6] Error 1
+gmake[1]: Leaving directory '/data/home/csmajs/bpham082/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_080a6/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/csmajs/bpham082/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f36d7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f36d7.dir/build.make CMakeFiles/cmTC_f36d7.dir/build
+gmake[1]: Entering directory '/data/home/csmajs/bpham082/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f36d7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_f36d7.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f36d7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f36d7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_f36d7.dir/CheckFunctionExists.c.o -o cmTC_f36d7  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_f36d7.dir/build.make:99: cmTC_f36d7] Error 1
+gmake[1]: Leaving directory '/data/home/csmajs/bpham082/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_f36d7/fast] Error 2
+
+
+

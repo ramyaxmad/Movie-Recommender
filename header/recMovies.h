@@ -7,7 +7,7 @@
 
 using namespace std;
 
-class recMovies {
+class RecMovies {
     private:
         int size;
         int capacity;

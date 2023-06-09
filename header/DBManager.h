@@ -1,18 +1,28 @@
-#ifndef DBMANGER_H
-#define DBMANGER_H
+#ifndef DBMANAGER_H
+#define DBMANAGER_H
 
 #include <iostream>
+#include <string>
 #include <vector>
-#include "movie.h"  // Include the Movie class header file
+#include <fstream>
+#include <sstream>
+#include "../header/movie.h"
+
 
 using namespace std;
 
 class DBManager {
 private:
+
     vector<Movie> Movies;
 
 public:
     void LoadData();
+
+    vector<Movie> movies;
+public:
+    void loadData();
+
     vector<Movie> getMovies(); 
 };
 

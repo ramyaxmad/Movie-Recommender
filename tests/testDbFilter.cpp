@@ -1,4 +1,4 @@
-#include "DBFilter.h"
+#include "../header/DBFilter.h"
 #include <iostream>
 
 // Helper function to check if two movie vectors contain the same movies
@@ -51,6 +51,9 @@ void testQueryMovieByDirector() {
         cout << "Test Failed: Query movies by director" << endl;
     }
 }
+
+    
+
 
 int main() {
     testQueryMovieByGenre();
