@@ -136,12 +136,12 @@ googletest/googletest/clean: googletest/googletest/CMakeFiles/gtest.dir/clean
 CMakeFiles/runMain.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runMain.dir/build.make CMakeFiles/runMain.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runMain.dir/build.make CMakeFiles/runMain.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles --progress-num=11,12,13,14,15,16,17 "Built target runMain"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles --progress-num=11,12,13,14,15,16,17,18 "Built target runMain"
 .PHONY : CMakeFiles/runMain.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/runMain.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/runMain.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles 0
 .PHONY : CMakeFiles/runMain.dir/rule
@@ -159,9 +159,9 @@ CMakeFiles/runMain.dir/clean:
 # Target rules for target CMakeFiles/runAllTests.dir
 
 # All Build rule for target.
+CMakeFiles/runAllTests.dir/all: googletest/googlemock/CMakeFiles/gmock.dir/all
 CMakeFiles/runAllTests.dir/all: googletest/googletest/CMakeFiles/gtest_main.dir/all
 CMakeFiles/runAllTests.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
-CMakeFiles/runAllTests.dir/all: googletest/googlemock/CMakeFiles/gmock.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles --progress-num=9,10 "Built target runAllTests"
@@ -187,8 +187,8 @@ CMakeFiles/runAllTests.dir/clean:
 # Target rules for target googletest/googlemock/CMakeFiles/gmock_main.dir
 
 # All Build rule for target.
-googletest/googlemock/CMakeFiles/gmock_main.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
 googletest/googlemock/CMakeFiles/gmock_main.dir/all: googletest/googlemock/CMakeFiles/gmock.dir/all
+googletest/googlemock/CMakeFiles/gmock_main.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f googletest/googlemock/CMakeFiles/gmock_main.dir/build.make googletest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f googletest/googlemock/CMakeFiles/gmock_main.dir/build.make googletest/googlemock/CMakeFiles/gmock_main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles --progress-num=3,4 "Built target gmock_main"

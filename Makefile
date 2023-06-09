@@ -335,6 +335,30 @@ src/FrontUI.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runMain.dir/build.make CMakeFiles/runMain.dir/src/FrontUI.cpp.s
 .PHONY : src/FrontUI.cpp.s
 
+src/SortBy.o: src/SortBy.cpp.o
+.PHONY : src/SortBy.o
+
+# target to build an object file
+src/SortBy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runMain.dir/build.make CMakeFiles/runMain.dir/src/SortBy.cpp.o
+.PHONY : src/SortBy.cpp.o
+
+src/SortBy.i: src/SortBy.cpp.i
+.PHONY : src/SortBy.i
+
+# target to preprocess a source file
+src/SortBy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runMain.dir/build.make CMakeFiles/runMain.dir/src/SortBy.cpp.i
+.PHONY : src/SortBy.cpp.i
+
+src/SortBy.s: src/SortBy.cpp.s
+.PHONY : src/SortBy.s
+
+# target to generate assembly for a file
+src/SortBy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runMain.dir/build.make CMakeFiles/runMain.dir/src/SortBy.cpp.s
+.PHONY : src/SortBy.cpp.s
+
 src/loginAuth.o: src/loginAuth.cpp.o
 .PHONY : src/loginAuth.o
 
@@ -437,6 +461,9 @@ help:
 	@echo "... src/FrontUI.o"
 	@echo "... src/FrontUI.i"
 	@echo "... src/FrontUI.s"
+	@echo "... src/SortBy.o"
+	@echo "... src/SortBy.i"
+	@echo "... src/SortBy.s"
 	@echo "... src/loginAuth.o"
 	@echo "... src/loginAuth.i"
 	@echo "... src/loginAuth.s"

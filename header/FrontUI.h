@@ -5,6 +5,7 @@
 #include "loginAuth.h"
 #include "DBManager.h"
 #include "movie.h"
+#include "SortBy.h"
 
 #include <iostream>
 #include <string>
@@ -18,8 +19,9 @@ class FrontUI {
         vector<Movie> recMoviesList;
     public:
         FrontUI();
-        int displayLoginMenu();
         void handleQuestion();
+
+        int displayLoginMenu();
         int displayGenreQuestion();
         int displayCastMemberQuestion();
         int displayLanguageQuestion();
@@ -27,5 +29,8 @@ class FrontUI {
         int displayMovieList();
 
         bool validGenreString(string genre);
+        void outputMoviesList();
+        void sortOptions();
+        int displayGoToPrevQues(string);
 };
 #endif
