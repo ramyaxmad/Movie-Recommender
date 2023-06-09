@@ -57,7 +57,7 @@
  > <img width="717" alt="Screenshot 2023-06-09 at 3 55 57 PM" src="https://github.com/cs100/final-project-rmadu002-ashar165-wchoi053-bpham082/assets/114566035/c718c743-c1ac-445b-acf3-a4bc62ffa316">
  > 
  ## Installation/Usage
- > Instructions on installing and running your application
+ > A user could install this program as a whole folder. Having an IDE like VSCode would make utilization of our program easier. When using this program, the user would be interacting with and inputting into the terminal. They willl be directed through a set of screens where they will be able to input their own preferences. Our program will then output a list of recommended movies, and allow the user to sort them however they would like.
  ## Testing
  > We tested/validated our project in a couple ways. Firstly, we manually tested all of our functions, simulating what it would be like as a user. In addition, we used Google Test during our development phase, such as testing to make sure that our data was being parsed correctly and being stored properly in the vector. We did not end up using CI because of the limited number of work hours, and we did not end up using Valgrind because we were dealing with only a couple pointer in our entire program
  
