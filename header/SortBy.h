@@ -2,15 +2,16 @@
 #define SORTBY_H
 
 #include "DBFilter.h"
+#include "movie.h"
 #include <iostream>
 #include <fstream>
 
 using namespace std;
 
-class SortBy :public DBFilter{
+class SortBy{
     public:
-        void SortByMostRecent();
-        void SortByMostAlphabetical();
+        vector<Movie> SortByMostRecent(DBFilter);
+        vector<Movie> SortByMostAlphabetical(DBFilter);
 };
 
 #endif

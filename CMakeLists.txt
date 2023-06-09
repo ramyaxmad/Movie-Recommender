@@ -9,10 +9,17 @@ add_subdirectory(googletest)
 
 add_executable(runAllTests
   tests/test.cpp
+)
+add_executable(runMain
+  src/DBFilter.cpp
   src/loginAuth.cpp
   src/DBManager.cpp
   src/movie.cpp
+  tests/test.cpp
   tests/testDbFilter.cpp
+  src/FrontUI.cpp
+  src/SortBy.cpp
+  main.cpp
 )
 
 target_link_libraries(runAllTests gmock gtest gtest_main)

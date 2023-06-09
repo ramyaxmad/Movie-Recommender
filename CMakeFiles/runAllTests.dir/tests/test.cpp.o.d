@@ -1,4 +1,5 @@
 CMakeFiles/runAllTests.dir/tests/test.cpp.o: \
+<<<<<<< HEAD
  /home/csmajs/bpham082/final-project-rmadu002-ashar165-wchoi053-bpham082/tests/test.cpp \
  /usr/include/stdc-predef.h \
  /home/csmajs/bpham082/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/googletest/include/gtest/gtest.h \
@@ -208,3 +209,7 @@ CMakeFiles/runAllTests.dir/tests/test.cpp.o: \
  /usr/include/c++/8/x86_64-redhat-linux/bits/c++io.h \
  /usr/include/c++/8/bits/fstream.tcc \
  /home/csmajs/bpham082/final-project-rmadu002-ashar165-wchoi053-bpham082/tests/../header/movie.h
+=======
+ /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/tests/test.cpp \
+ /usr/include/stdc-predef.h
+>>>>>>> master

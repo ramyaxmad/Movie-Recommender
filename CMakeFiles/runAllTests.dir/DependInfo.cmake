@@ -8,11 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/csmajs/bpham082/final-project-rmadu002-ashar165-wchoi053-bpham082/src/DBManager.cpp" "CMakeFiles/runAllTests.dir/src/DBManager.cpp.o" "gcc" "CMakeFiles/runAllTests.dir/src/DBManager.cpp.o.d"
-  "/home/csmajs/bpham082/final-project-rmadu002-ashar165-wchoi053-bpham082/src/loginAuth.cpp" "CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o" "gcc" "CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o.d"
-  "/home/csmajs/bpham082/final-project-rmadu002-ashar165-wchoi053-bpham082/src/movie.cpp" "CMakeFiles/runAllTests.dir/src/movie.cpp.o" "gcc" "CMakeFiles/runAllTests.dir/src/movie.cpp.o.d"
   "/home/csmajs/bpham082/final-project-rmadu002-ashar165-wchoi053-bpham082/tests/test.cpp" "CMakeFiles/runAllTests.dir/tests/test.cpp.o" "gcc" "CMakeFiles/runAllTests.dir/tests/test.cpp.o.d"
-  "/home/csmajs/bpham082/final-project-rmadu002-ashar165-wchoi053-bpham082/tests/testDbFilter.cpp" "CMakeFiles/runAllTests.dir/tests/testDbFilter.cpp.o" "gcc" "CMakeFiles/runAllTests.dir/tests/testDbFilter.cpp.o.d"
   )
 
 # Targets to which this target links.

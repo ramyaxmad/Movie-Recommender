@@ -1,14 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/runAllTests.dir/src/DBManager.cpp.o"
-  "CMakeFiles/runAllTests.dir/src/DBManager.cpp.o.d"
-  "CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o"
-  "CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o.d"
-  "CMakeFiles/runAllTests.dir/src/movie.cpp.o"
-  "CMakeFiles/runAllTests.dir/src/movie.cpp.o.d"
   "CMakeFiles/runAllTests.dir/tests/test.cpp.o"
   "CMakeFiles/runAllTests.dir/tests/test.cpp.o.d"
-  "CMakeFiles/runAllTests.dir/tests/testDbFilter.cpp.o"
-  "CMakeFiles/runAllTests.dir/tests/testDbFilter.cpp.o.d"
   "bin/runAllTests"
   "bin/runAllTests.pdb"
 )
