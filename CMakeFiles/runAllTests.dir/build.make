@@ -83,21 +83,101 @@ CMakeFiles/runAllTests.dir/tests/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runAllTests.dir/tests/test.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/tests/test.cpp -o CMakeFiles/runAllTests.dir/tests/test.cpp.s
 
+CMakeFiles/runAllTests.dir/src/DBManager.cpp.o: CMakeFiles/runAllTests.dir/flags.make
+CMakeFiles/runAllTests.dir/src/DBManager.cpp.o: src/DBManager.cpp
+CMakeFiles/runAllTests.dir/src/DBManager.cpp.o: CMakeFiles/runAllTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/runAllTests.dir/src/DBManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runAllTests.dir/src/DBManager.cpp.o -MF CMakeFiles/runAllTests.dir/src/DBManager.cpp.o.d -o CMakeFiles/runAllTests.dir/src/DBManager.cpp.o -c /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/DBManager.cpp
+
+CMakeFiles/runAllTests.dir/src/DBManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runAllTests.dir/src/DBManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/DBManager.cpp > CMakeFiles/runAllTests.dir/src/DBManager.cpp.i
+
+CMakeFiles/runAllTests.dir/src/DBManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runAllTests.dir/src/DBManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/DBManager.cpp -o CMakeFiles/runAllTests.dir/src/DBManager.cpp.s
+
+CMakeFiles/runAllTests.dir/src/movie.cpp.o: CMakeFiles/runAllTests.dir/flags.make
+CMakeFiles/runAllTests.dir/src/movie.cpp.o: src/movie.cpp
+CMakeFiles/runAllTests.dir/src/movie.cpp.o: CMakeFiles/runAllTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/runAllTests.dir/src/movie.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runAllTests.dir/src/movie.cpp.o -MF CMakeFiles/runAllTests.dir/src/movie.cpp.o.d -o CMakeFiles/runAllTests.dir/src/movie.cpp.o -c /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/movie.cpp
+
+CMakeFiles/runAllTests.dir/src/movie.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runAllTests.dir/src/movie.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/movie.cpp > CMakeFiles/runAllTests.dir/src/movie.cpp.i
+
+CMakeFiles/runAllTests.dir/src/movie.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runAllTests.dir/src/movie.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/movie.cpp -o CMakeFiles/runAllTests.dir/src/movie.cpp.s
+
+CMakeFiles/runAllTests.dir/src/DBFilter.cpp.o: CMakeFiles/runAllTests.dir/flags.make
+CMakeFiles/runAllTests.dir/src/DBFilter.cpp.o: src/DBFilter.cpp
+CMakeFiles/runAllTests.dir/src/DBFilter.cpp.o: CMakeFiles/runAllTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/runAllTests.dir/src/DBFilter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runAllTests.dir/src/DBFilter.cpp.o -MF CMakeFiles/runAllTests.dir/src/DBFilter.cpp.o.d -o CMakeFiles/runAllTests.dir/src/DBFilter.cpp.o -c /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/DBFilter.cpp
+
+CMakeFiles/runAllTests.dir/src/DBFilter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runAllTests.dir/src/DBFilter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/DBFilter.cpp > CMakeFiles/runAllTests.dir/src/DBFilter.cpp.i
+
+CMakeFiles/runAllTests.dir/src/DBFilter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runAllTests.dir/src/DBFilter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/DBFilter.cpp -o CMakeFiles/runAllTests.dir/src/DBFilter.cpp.s
+
+CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o: CMakeFiles/runAllTests.dir/flags.make
+CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o: src/loginAuth.cpp
+CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o: CMakeFiles/runAllTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o -MF CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o.d -o CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o -c /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/loginAuth.cpp
+
+CMakeFiles/runAllTests.dir/src/loginAuth.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runAllTests.dir/src/loginAuth.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/loginAuth.cpp > CMakeFiles/runAllTests.dir/src/loginAuth.cpp.i
+
+CMakeFiles/runAllTests.dir/src/loginAuth.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runAllTests.dir/src/loginAuth.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/loginAuth.cpp -o CMakeFiles/runAllTests.dir/src/loginAuth.cpp.s
+
+CMakeFiles/runAllTests.dir/src/SortBy.cpp.o: CMakeFiles/runAllTests.dir/flags.make
+CMakeFiles/runAllTests.dir/src/SortBy.cpp.o: src/SortBy.cpp
+CMakeFiles/runAllTests.dir/src/SortBy.cpp.o: CMakeFiles/runAllTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/runAllTests.dir/src/SortBy.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runAllTests.dir/src/SortBy.cpp.o -MF CMakeFiles/runAllTests.dir/src/SortBy.cpp.o.d -o CMakeFiles/runAllTests.dir/src/SortBy.cpp.o -c /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/SortBy.cpp
+
+CMakeFiles/runAllTests.dir/src/SortBy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runAllTests.dir/src/SortBy.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/SortBy.cpp > CMakeFiles/runAllTests.dir/src/SortBy.cpp.i
+
+CMakeFiles/runAllTests.dir/src/SortBy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runAllTests.dir/src/SortBy.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/SortBy.cpp -o CMakeFiles/runAllTests.dir/src/SortBy.cpp.s
+
 # Object files for target runAllTests
 runAllTests_OBJECTS = \
-"CMakeFiles/runAllTests.dir/tests/test.cpp.o"
+"CMakeFiles/runAllTests.dir/tests/test.cpp.o" \
+"CMakeFiles/runAllTests.dir/src/DBManager.cpp.o" \
+"CMakeFiles/runAllTests.dir/src/movie.cpp.o" \
+"CMakeFiles/runAllTests.dir/src/DBFilter.cpp.o" \
+"CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o" \
+"CMakeFiles/runAllTests.dir/src/SortBy.cpp.o"
 
 # External object files for target runAllTests
 runAllTests_EXTERNAL_OBJECTS =
 
 bin/runAllTests: CMakeFiles/runAllTests.dir/tests/test.cpp.o
+bin/runAllTests: CMakeFiles/runAllTests.dir/src/DBManager.cpp.o
+bin/runAllTests: CMakeFiles/runAllTests.dir/src/movie.cpp.o
+bin/runAllTests: CMakeFiles/runAllTests.dir/src/DBFilter.cpp.o
+bin/runAllTests: CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o
+bin/runAllTests: CMakeFiles/runAllTests.dir/src/SortBy.cpp.o
 bin/runAllTests: CMakeFiles/runAllTests.dir/build.make
 bin/runAllTests: lib/libgmock.a
 bin/runAllTests: lib/libgtest.a
 bin/runAllTests: lib/libgtest_main.a
 bin/runAllTests: lib/libgtest.a
 bin/runAllTests: CMakeFiles/runAllTests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin/runAllTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable bin/runAllTests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/runAllTests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

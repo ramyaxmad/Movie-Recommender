@@ -7,11 +7,12 @@ using namespace std;
 class loginAuthentication {
     private:
         string password;
-        string username;
+        string username;            
     public:
         loginAuthentication();
         loginAuthentication(string, string);
         void createLogin();
+        void createLogin(string, string);
         bool validLogin();
         void readFiles();
 

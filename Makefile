@@ -269,6 +269,7 @@ src/DBFilter.o: src/DBFilter.cpp.o
 # target to build an object file
 src/DBFilter.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runMain.dir/build.make CMakeFiles/runMain.dir/src/DBFilter.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/DBFilter.cpp.o
 .PHONY : src/DBFilter.cpp.o
 
 src/DBFilter.i: src/DBFilter.cpp.i
@@ -277,6 +278,7 @@ src/DBFilter.i: src/DBFilter.cpp.i
 # target to preprocess a source file
 src/DBFilter.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runMain.dir/build.make CMakeFiles/runMain.dir/src/DBFilter.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/DBFilter.cpp.i
 .PHONY : src/DBFilter.cpp.i
 
 src/DBFilter.s: src/DBFilter.cpp.s
@@ -285,6 +287,7 @@ src/DBFilter.s: src/DBFilter.cpp.s
 # target to generate assembly for a file
 src/DBFilter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runMain.dir/build.make CMakeFiles/runMain.dir/src/DBFilter.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/DBFilter.cpp.s
 .PHONY : src/DBFilter.cpp.s
 
 src/DBManager.o: src/DBManager.cpp.o
@@ -293,6 +296,7 @@ src/DBManager.o: src/DBManager.cpp.o
 # target to build an object file
 src/DBManager.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runMain.dir/build.make CMakeFiles/runMain.dir/src/DBManager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/DBManager.cpp.o
 .PHONY : src/DBManager.cpp.o
 
 src/DBManager.i: src/DBManager.cpp.i
@@ -301,6 +305,7 @@ src/DBManager.i: src/DBManager.cpp.i
 # target to preprocess a source file
 src/DBManager.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runMain.dir/build.make CMakeFiles/runMain.dir/src/DBManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/DBManager.cpp.i
 .PHONY : src/DBManager.cpp.i
 
 src/DBManager.s: src/DBManager.cpp.s
@@ -309,6 +314,7 @@ src/DBManager.s: src/DBManager.cpp.s
 # target to generate assembly for a file
 src/DBManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runMain.dir/build.make CMakeFiles/runMain.dir/src/DBManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/DBManager.cpp.s
 .PHONY : src/DBManager.cpp.s
 
 src/FrontUI.o: src/FrontUI.cpp.o
@@ -341,6 +347,7 @@ src/SortBy.o: src/SortBy.cpp.o
 # target to build an object file
 src/SortBy.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runMain.dir/build.make CMakeFiles/runMain.dir/src/SortBy.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/SortBy.cpp.o
 .PHONY : src/SortBy.cpp.o
 
 src/SortBy.i: src/SortBy.cpp.i
@@ -349,6 +356,7 @@ src/SortBy.i: src/SortBy.cpp.i
 # target to preprocess a source file
 src/SortBy.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runMain.dir/build.make CMakeFiles/runMain.dir/src/SortBy.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/SortBy.cpp.i
 .PHONY : src/SortBy.cpp.i
 
 src/SortBy.s: src/SortBy.cpp.s
@@ -357,6 +365,7 @@ src/SortBy.s: src/SortBy.cpp.s
 # target to generate assembly for a file
 src/SortBy.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runMain.dir/build.make CMakeFiles/runMain.dir/src/SortBy.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/SortBy.cpp.s
 .PHONY : src/SortBy.cpp.s
 
 src/loginAuth.o: src/loginAuth.cpp.o
@@ -365,6 +374,7 @@ src/loginAuth.o: src/loginAuth.cpp.o
 # target to build an object file
 src/loginAuth.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runMain.dir/build.make CMakeFiles/runMain.dir/src/loginAuth.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o
 .PHONY : src/loginAuth.cpp.o
 
 src/loginAuth.i: src/loginAuth.cpp.i
@@ -373,6 +383,7 @@ src/loginAuth.i: src/loginAuth.cpp.i
 # target to preprocess a source file
 src/loginAuth.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runMain.dir/build.make CMakeFiles/runMain.dir/src/loginAuth.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/loginAuth.cpp.i
 .PHONY : src/loginAuth.cpp.i
 
 src/loginAuth.s: src/loginAuth.cpp.s
@@ -381,6 +392,7 @@ src/loginAuth.s: src/loginAuth.cpp.s
 # target to generate assembly for a file
 src/loginAuth.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runMain.dir/build.make CMakeFiles/runMain.dir/src/loginAuth.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/loginAuth.cpp.s
 .PHONY : src/loginAuth.cpp.s
 
 src/movie.o: src/movie.cpp.o
@@ -389,6 +401,7 @@ src/movie.o: src/movie.cpp.o
 # target to build an object file
 src/movie.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runMain.dir/build.make CMakeFiles/runMain.dir/src/movie.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/movie.cpp.o
 .PHONY : src/movie.cpp.o
 
 src/movie.i: src/movie.cpp.i
@@ -397,6 +410,7 @@ src/movie.i: src/movie.cpp.i
 # target to preprocess a source file
 src/movie.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runMain.dir/build.make CMakeFiles/runMain.dir/src/movie.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/movie.cpp.i
 .PHONY : src/movie.cpp.i
 
 src/movie.s: src/movie.cpp.s
@@ -405,6 +419,7 @@ src/movie.s: src/movie.cpp.s
 # target to generate assembly for a file
 src/movie.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runMain.dir/build.make CMakeFiles/runMain.dir/src/movie.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runAllTests.dir/build.make CMakeFiles/runAllTests.dir/src/movie.cpp.s
 .PHONY : src/movie.cpp.s
 
 tests/test.o: tests/test.cpp.o

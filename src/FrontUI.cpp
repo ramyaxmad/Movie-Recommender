@@ -51,7 +51,7 @@ int FrontUI::displayLoginMenu() {
     cout << "MOVIE RECOMMENDER" << endl << endl;
 
     while (true) {
-        cout << "Welcome! Are you a new user? Type yes or no";
+        cout << "Welcome! Are you a new user? Type yes or no: ";
         string newUser;
         getline(cin, newUser);
         if (newUser == "yes") {
@@ -64,7 +64,7 @@ int FrontUI::displayLoginMenu() {
             getline(cin, pass);
             loginAuthentication *login = new loginAuthentication(user, pass);
             login->createLogin();
-            cout << "creates login";
+            cout << "Creates Login" << endl;
             delete login;
             break;
         }
@@ -80,6 +80,7 @@ int FrontUI::displayLoginMenu() {
             if (login->validLogin() == false)
                 cout << "Invalid. Please try again." << endl << endl;
             else {
+                cout << "Logged In" << endl;
                 delete login;
                 break;
             }
