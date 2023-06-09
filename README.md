@@ -25,12 +25,6 @@
  > <img width="527" alt="Screenshot 2023-06-09 at 3 07 30 PM" src="https://github.com/cs100/final-project-rmadu002-ashar165-wchoi053-bpham082/assets/114566035/18760f60-1bef-4157-9490-0bad8d0cbb82">
  > 
  > 
- > MovieRecommender 
- > contains with the UI including the login input, user input that answers each question (userGenre, userCastMember, userDirector, userLanguange), and user inputs that can restart the program, go back to the previous screen, and logout. 
- > RecMovies
- > will take in movie preference data and create a list of Movie objects.
- > Movie
- > a single Movie object is created and 
 
  > ## Phase III
  > 
