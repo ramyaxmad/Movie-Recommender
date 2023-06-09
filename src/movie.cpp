@@ -1,4 +1,4 @@
-#include "../header/dbmanger.h"
+#include "../header/DBManager.h"
 #include <iostream>
 
 using namespace std;
@@ -44,11 +44,12 @@ int Movie::getRating() const {
     return rating;
 }
 
-string Movie::getData() const {
-    return data;
+
+string Movie::getTitle() const{
+    return name; 
 }
 
-Movie Movie::output() {
+void Movie::output() {
     // Print the details of the movie
     cout << "Name: " << name << endl;
     cout << "Genre: " << genre << endl;
