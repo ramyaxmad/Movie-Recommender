@@ -22,18 +22,11 @@
 
 
 ## Class Diagram
- > ![Screenshot 2023-05-11 213925](https://github.com/cs100/final-project-rmadu002-ashar165-wchoi053-bpham082/assets/129914516/c91b30fc-9030-4330-93bd-34f560410f91)
+ > <img width="527" alt="Screenshot 2023-06-09 at 3 07 30 PM" src="https://github.com/cs100/final-project-rmadu002-ashar165-wchoi053-bpham082/assets/114566035/18760f60-1bef-4157-9490-0bad8d0cbb82">
  > 
- > We have 4 classes: MovieRecommender, Movie, RecMovies, Sort. 
- > MovieRecommender 
- > contains with the UI including the login input, user input that answers each question (userGenre, userCastMember, userDirector, userLanguange), and user inputs that can restart the program, go back to the previous screen, and logout. 
- > RecMovies
- > will take in movie preference data and create a list of Movie objects.
- > Movie
- > a single Movie object is created and 
+ > 
 
  > ## Phase III
- > <img width="308" alt="Screenshot" src="https://github.com/cs100/final-project-rmadu002-ashar165-wchoi053-bpham082/assets/114566035/14fa9c66-c81f-49cb-b4d6-8ecaa171d6f3">
  > 
  > SOLID principles:
  > - Single responsibility principle: We created a separate “Sort” class apart from the “DBFilter “class since the “DBFilter” class creates
@@ -57,8 +50,14 @@
  
  ## Screenshots
  > Screenshots of the input/output after running your application
+ > <img width="681" alt="Screenshot 2023-06-09 at 3 53 44 PM" src="https://github.com/cs100/final-project-rmadu002-ashar165-wchoi053-bpham082/assets/114566035/ae65d12a-95c2-4d3d-a501-4d35ebab8eaa">
+ > <img width="939" alt="Screenshot 2023-06-09 at 3 54 06 PM" src="https://github.com/cs100/final-project-rmadu002-ashar165-wchoi053-bpham082/assets/114566035/68ee2803-ee19-4bb6-9631-ec7d625923ab">
+ > <img width="866" alt="Screenshot 2023-06-09 at 3 54 21 PM" src="https://github.com/cs100/final-project-rmadu002-ashar165-wchoi053-bpham082/assets/114566035/b3ec1290-eab2-4664-bd2b-2553ab268d90">
+ > <img width="502" alt="Screenshot 2023-06-09 at 3 54 41 PM" src="https://github.com/cs100/final-project-rmadu002-ashar165-wchoi053-bpham082/assets/114566035/453fc532-b0ed-4262-a771-7817545a3a9f">
+ > <img width="717" alt="Screenshot 2023-06-09 at 3 55 57 PM" src="https://github.com/cs100/final-project-rmadu002-ashar165-wchoi053-bpham082/assets/114566035/c718c743-c1ac-445b-acf3-a4bc62ffa316">
+ > 
  ## Installation/Usage
- > Instructions on installing and running your application
+ > A user could install this program as a whole folder. Having an IDE like VSCode would make utilization of our program easier. When using this program, the user would be interacting with and inputting into the terminal. They willl be directed through a set of screens where they will be able to input their own preferences. Our program will then output a list of recommended movies, and allow the user to sort them however they would like.
  ## Testing
  > We tested/validated our project in a couple ways. Firstly, we manually tested all of our functions, simulating what it would be like as a user. In addition, we used Google Test during our development phase, such as testing to make sure that our data was being parsed correctly and being stored properly in the vector. We did not end up using CI because of the limited number of work hours, and we did not end up using Valgrind because we were dealing with only a couple pointer in our entire program
  
