@@ -7,11 +7,10 @@
 
 using namespace std;
 
-class sortBy :public DBFilter{
+class SortBy :public DBFilter{
     public:
-        SortByMostPopular();
-        SortByMostRecent();
-        SortByMostAlphabetical();
+        void SortByMostRecent();
+        void SortByMostAlphabetical();
 };
 
 #endif

@@ -19,7 +19,7 @@ private:
 
     vector<Movie> MoviesByGenre;
     vector<Movie> MoviesByCast;
-    vector<Movie> MoviesByLangauge;
+    vector<Movie> MoviesByLanguage;
     vector<Movie> MoviesByDirector;
 protected:
     vector<Movie> recommendedMovies;
@@ -29,7 +29,8 @@ public:
     void queryMovieByCast(string castMember);
     void queryMovieByLanguage(string language);
     void queryMovieByDirector(string director);
-    vector<Movie> recommendedMovies();
+    vector<Movie> recommendedMoviesList();
 };
 
 #endif
+

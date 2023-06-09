@@ -3,7 +3,7 @@
 
 #include <iostream>
 #include <vector>
-#include "Movie.h"  // Include the Movie class header file
+#include "movie.h"  // Include the Movie class header file
 
 using namespace std;
 

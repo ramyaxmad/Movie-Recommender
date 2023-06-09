@@ -18,8 +18,9 @@ class Movie {
     public:
         Movie();
         Movie(string genre, string castMember, string director, string language, int data, int rating);
-        Movie output(); 
+        void output(); 
 
+        string getTitle() const;
         string getGenre() const;
         string getCastMember() const;
         string getDirector() const;
