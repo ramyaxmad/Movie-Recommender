@@ -6,23 +6,15 @@
 #include <vector>
 #include <fstream>
 #include <sstream>
-#include "../header/movie.h"
-
+#include "movie.h"
 
 using namespace std;
 
 class DBManager {
 private:
-
-    vector<Movie> Movies;
-
-public:
-    void LoadData();
-
     vector<Movie> movies;
 public:
     void loadData();
-
     vector<Movie> getMovies(); 
 };
 

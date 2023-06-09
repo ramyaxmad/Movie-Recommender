@@ -1,4 +1,4 @@
-#include "../header/DBManager.h"
+#include "../header/movie.h"
 #include <iostream>
 
 using namespace std;
@@ -55,12 +55,11 @@ int Movie::getMovieID() const {
 
 void Movie::output() {
     // Print the details of the movie
-    cout << "Movie ID: " << movieID << endl;
-    cout << "Name: " << title << endl;
-    cout << "Genre: " << genre << endl;
+    //cout << "Movie ID: " << movieID << endl;
+    cout << title << endl;
+    cout << "Genre: " << genre << endl << endl;
     // cout << "Cast Member: " << castMember << endl;
     // cout << "Director: " << director << endl;
     // cout << "Language: " << language << endl;
-    cout << "Rating: " << rating << "/100" << endl;
+    //cout << "Rating: " << rating << "/100" << endl;
 }
-

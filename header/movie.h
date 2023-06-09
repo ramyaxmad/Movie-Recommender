@@ -14,11 +14,12 @@ class Movie {
         string director;
         string language;
         int rating; //rating should be an int then we can print out of 100 or as a percent ex. cout 10 + "%"
-       
+    
+    
     public:
         Movie();
-        Movie(string genre, string castMember, string director, string language, int data, int rating);
-        Movie output(); 
+        Movie(int movieID, string title, string genre, string castMember, string director, string language, int rating);
+        void output(); 
 
         int getMovieID() const;
         string getTitle() const;
