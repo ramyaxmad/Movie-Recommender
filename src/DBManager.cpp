@@ -1,6 +1,7 @@
 #include "../header/DBManager.h"
 
 
+
 void DBManager::loadData(){ //parse data
     fstream inFS;
     string filename;
@@ -44,7 +45,7 @@ void DBManager::loadData(){ //parse data
     //     cout << endl;
     // }
 
-
+    
     inFS.close();
 }
 
@@ -55,5 +56,5 @@ vector<Movie> DBManager::getMovies(){ //return parsed data
 
 // int main(){
 //     DBManager db;
-//     db.LoadData();
+//     db.loadData();
 // }

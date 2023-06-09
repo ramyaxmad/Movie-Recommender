@@ -76,7 +76,7 @@ int FrontUI::displayLoginMenu() {
 int FrontUI::displayGenreQuestion() {
     string genre = "";
     while (true) {
-        cout << endl << " * Action\n * Adventure\n * Animation\n * Children\'s\n * Comedy\n";
+        cout << endl << " * Action\n * Adventure\n * Animation\n * Comedy\n";
         cout << " * Crime\n * Documentary\n * Drama\n * Fantasy\n * Film-Noir\n * Horror\n * Musical\n";
         cout << " * Mystery\n * Romance\n * Sci-Fi\n * Thriller\n * War\n" << endl << endl;
 
