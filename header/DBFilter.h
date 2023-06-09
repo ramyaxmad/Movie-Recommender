@@ -1,33 +1,35 @@
-#ifndef MOVIE_H
-#define MOVIE_H
+#ifndef DBFILTER_H
+#define DBFILTER_H
 
 #include <iostream>
+#include <string>
+#include <vector>
+#include <fstream>
+#include <sstream>
+
+#include "movie.h"
+#include "DBManager.h"
+
 using namespace std;
 
+class DBFilter {
+private:
+    DBManager manager;
+    vector<Movie> allMovies;
 
-class Movie {
-    private:
-        int movieID;
-        string title;
-        string genre; 
-        string castMember;
-        string director;
-        string language;
-        int rating; //rating should be an int then we can print out of 100 or as a percent ex. cout 10 + "%"
-    
-    
-    public:
-        Movie();
-        Movie(int movieID, string title, string genre, string castMember, string director, string language, int rating);
-        void output(); 
-
-        int getMovieID() const;
-        string getTitle() const;
-        string getGenre() const;
-        string getCastMember() const;
-        string getDirector() const;
-        string getLanguage() const;
-        int getRating() const;
+    vector<Movie> MoviesByGenre;
+    vector<Movie> MoviesByCast;
+    vector<Movie> MoviesByLanguage;
+    vector<Movie> MoviesByDirector;
+protected:
+    vector<Movie> recommendedMovies;
+public:
+    DBFilter();
+    void queryMovieByGenre(string genre);
+    void queryMovieByCast(string castMember);
+    void queryMovieByLanguage(string language);
+    void queryMovieByDirector(string director);
+    vector<Movie> recommendedMoviesList();
 };
 
 #endif

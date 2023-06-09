@@ -13,10 +13,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/runMain.dir/src/loginAuth.cpp.o.d"
   "CMakeFiles/runMain.dir/src/movie.cpp.o"
   "CMakeFiles/runMain.dir/src/movie.cpp.o.d"
-  "CMakeFiles/runMain.dir/tests/test.cpp.o"
-  "CMakeFiles/runMain.dir/tests/test.cpp.o.d"
-  "CMakeFiles/runMain.dir/tests/testDbFilter.cpp.o"
-  "CMakeFiles/runMain.dir/tests/testDbFilter.cpp.o.d"
   "bin/runMain"
   "bin/runMain.pdb"
 )

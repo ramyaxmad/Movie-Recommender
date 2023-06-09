@@ -15,8 +15,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/csmajs/bpham082/final-project-rmadu002-ashar165-wchoi053-bpham082/src/SortBy.cpp" "CMakeFiles/runMain.dir/src/SortBy.cpp.o" "gcc" "CMakeFiles/runMain.dir/src/SortBy.cpp.o.d"
   "/home/csmajs/bpham082/final-project-rmadu002-ashar165-wchoi053-bpham082/src/loginAuth.cpp" "CMakeFiles/runMain.dir/src/loginAuth.cpp.o" "gcc" "CMakeFiles/runMain.dir/src/loginAuth.cpp.o.d"
   "/home/csmajs/bpham082/final-project-rmadu002-ashar165-wchoi053-bpham082/src/movie.cpp" "CMakeFiles/runMain.dir/src/movie.cpp.o" "gcc" "CMakeFiles/runMain.dir/src/movie.cpp.o.d"
-  "/home/csmajs/bpham082/final-project-rmadu002-ashar165-wchoi053-bpham082/tests/test.cpp" "CMakeFiles/runMain.dir/tests/test.cpp.o" "gcc" "CMakeFiles/runMain.dir/tests/test.cpp.o.d"
-  "/home/csmajs/bpham082/final-project-rmadu002-ashar165-wchoi053-bpham082/tests/testDbFilter.cpp" "CMakeFiles/runMain.dir/tests/testDbFilter.cpp.o" "gcc" "CMakeFiles/runMain.dir/tests/testDbFilter.cpp.o.d"
   )
 
 # Targets to which this target links.

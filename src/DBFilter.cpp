@@ -38,21 +38,35 @@ void DBFilter::queryMovieByGenre(string genre) {
 }
 
 void DBFilter::queryMovieByCast(string cast) {
-    for (unsigned i = 0; i < allMovies.size(); i++){
+    MoviesByCast.clear(); // Clear the vector before populating
+    recommendedMovies.clear();
+    for (unsigned i = 0; i < 15; i++){
         MoviesByCast.push_back(allMovies.at(rand() % allMovies.size()));
     }
-    
+    for(unsigned i = 0; i < 15; i++) {
+        recommendedMovies.push_back(MoviesByCast.at(rand() % MoviesByCast.size()));
+    }
 }
 
 void DBFilter::queryMovieByLanguage(string language) {
-     for (unsigned i = 0; i < allMovies.size(); i++){
+     MoviesByLanguage.clear(); // Clear the vector before populating
+    recommendedMovies.clear();
+    for (unsigned i = 0; i < 15; i++){
         MoviesByLanguage.push_back(allMovies.at(rand() % allMovies.size()));
+    }
+    for(unsigned i = 0; i < 15; i++) {
+        recommendedMovies.push_back(MoviesByLanguage.at(rand() % MoviesByLanguage.size()));
     }
 }
 
 void DBFilter::queryMovieByDirector(string director) {
-     for (unsigned i = 0; i < allMovies.size(); i++){
+    MoviesByDirector.clear();
+    recommendedMovies.clear();
+    for (unsigned i = 0; i < 15; i++) {
         MoviesByDirector.push_back(allMovies.at(rand() % allMovies.size()));
+    }
+    for (unsigned i = 0; i < 15; i++) {
+        recommendedMovies.push_back(MoviesByDirector.at(rand() % MoviesByDirector.size()));
     }
 }
 
