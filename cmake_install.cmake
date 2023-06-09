@@ -1,4 +1,4 @@
-# Install script for directory: /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082
+# Install script for directory: /home/csmajs/bpham082/final-project-rmadu002-ashar165-wchoi053-bpham082
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/cmake_install.cmake")
+  include("/home/csmajs/bpham082/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -55,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/csmajs/bpham082/final-project-rmadu002-ashar165-wchoi053-bpham082/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

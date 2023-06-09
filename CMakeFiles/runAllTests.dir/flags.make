@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/googlemock/include -isystem /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/googlemock -isystem /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/googletest/include -isystem /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/googletest
+CXX_INCLUDES = -isystem /home/csmajs/bpham082/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/googlemock/include -isystem /home/csmajs/bpham082/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/googlemock -isystem /home/csmajs/bpham082/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/googletest/include -isystem /home/csmajs/bpham082/final-project-rmadu002-ashar165-wchoi053-bpham082/googletest/googletest
 
 CXX_FLAGS = 
 

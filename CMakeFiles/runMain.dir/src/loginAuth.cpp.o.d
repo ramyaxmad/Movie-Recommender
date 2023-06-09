@@ -1,4 +1,4 @@
-CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o: \
+CMakeFiles/runMain.dir/src/loginAuth.cpp.o: \
  /home/csmajs/bpham082/final-project-rmadu002-ashar165-wchoi053-bpham082/src/loginAuth.cpp \
  /usr/include/stdc-predef.h \
  /home/csmajs/bpham082/final-project-rmadu002-ashar165-wchoi053-bpham082/src/../header/loginAuth.h \
