@@ -9,7 +9,6 @@ add_subdirectory(googletest)
 
 add_executable(runAllTests
   tests/test.cpp
-  tests/testDbFilter.cpp
   src/DBFilter.cpp
   src/loginAuth.cpp
   src/DBManager.cpp

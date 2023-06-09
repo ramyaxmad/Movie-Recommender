@@ -1,7 +1,13 @@
 CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o: \
+<<<<<<< HEAD
  /home/csmajs/bpham082/final-project-rmadu002-ashar165-wchoi053-bpham082/src/loginAuth.cpp \
  /usr/include/stdc-predef.h \
  /home/csmajs/bpham082/final-project-rmadu002-ashar165-wchoi053-bpham082/src/../header/loginAuth.h \
+=======
+ /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/loginAuth.cpp \
+ /usr/include/stdc-predef.h \
+ /home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/../header/loginAuth.h \
+>>>>>>> rmadu002/newFinal
  /usr/include/c++/8/iostream \
  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \

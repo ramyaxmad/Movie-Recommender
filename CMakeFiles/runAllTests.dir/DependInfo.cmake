@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+<<<<<<< HEAD
   "/home/csmajs/bpham082/final-project-rmadu002-ashar165-wchoi053-bpham082/src/DBFilter.cpp" "CMakeFiles/runAllTests.dir/src/DBFilter.cpp.o" "gcc" "CMakeFiles/runAllTests.dir/src/DBFilter.cpp.o.d"
   "/home/csmajs/bpham082/final-project-rmadu002-ashar165-wchoi053-bpham082/src/DBManager.cpp" "CMakeFiles/runAllTests.dir/src/DBManager.cpp.o" "gcc" "CMakeFiles/runAllTests.dir/src/DBManager.cpp.o.d"
   "/home/csmajs/bpham082/final-project-rmadu002-ashar165-wchoi053-bpham082/src/FrontUI.cpp" "CMakeFiles/runAllTests.dir/src/FrontUI.cpp.o" "gcc" "CMakeFiles/runAllTests.dir/src/FrontUI.cpp.o.d"
@@ -16,6 +17,14 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/csmajs/bpham082/final-project-rmadu002-ashar165-wchoi053-bpham082/src/movie.cpp" "CMakeFiles/runAllTests.dir/src/movie.cpp.o" "gcc" "CMakeFiles/runAllTests.dir/src/movie.cpp.o.d"
   "/home/csmajs/bpham082/final-project-rmadu002-ashar165-wchoi053-bpham082/tests/test.cpp" "CMakeFiles/runAllTests.dir/tests/test.cpp.o" "gcc" "CMakeFiles/runAllTests.dir/tests/test.cpp.o.d"
   "/home/csmajs/bpham082/final-project-rmadu002-ashar165-wchoi053-bpham082/tests/testDbFilter.cpp" "CMakeFiles/runAllTests.dir/tests/testDbFilter.cpp.o" "gcc" "CMakeFiles/runAllTests.dir/tests/testDbFilter.cpp.o.d"
+=======
+  "/home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/DBFilter.cpp" "CMakeFiles/runAllTests.dir/src/DBFilter.cpp.o" "gcc" "CMakeFiles/runAllTests.dir/src/DBFilter.cpp.o.d"
+  "/home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/DBManager.cpp" "CMakeFiles/runAllTests.dir/src/DBManager.cpp.o" "gcc" "CMakeFiles/runAllTests.dir/src/DBManager.cpp.o.d"
+  "/home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/SortBy.cpp" "CMakeFiles/runAllTests.dir/src/SortBy.cpp.o" "gcc" "CMakeFiles/runAllTests.dir/src/SortBy.cpp.o.d"
+  "/home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/loginAuth.cpp" "CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o" "gcc" "CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o.d"
+  "/home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/src/movie.cpp" "CMakeFiles/runAllTests.dir/src/movie.cpp.o" "gcc" "CMakeFiles/runAllTests.dir/src/movie.cpp.o.d"
+  "/home/csmajs/rmadu002/final-project-rmadu002-ashar165-wchoi053-bpham082/tests/test.cpp" "CMakeFiles/runAllTests.dir/tests/test.cpp.o" "gcc" "CMakeFiles/runAllTests.dir/tests/test.cpp.o.d"
+>>>>>>> rmadu002/newFinal
   )
 
 # Targets to which this target links.

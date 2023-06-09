@@ -3,8 +3,11 @@ file(REMOVE_RECURSE
   "CMakeFiles/runAllTests.dir/src/DBFilter.cpp.o.d"
   "CMakeFiles/runAllTests.dir/src/DBManager.cpp.o"
   "CMakeFiles/runAllTests.dir/src/DBManager.cpp.o.d"
+<<<<<<< HEAD
   "CMakeFiles/runAllTests.dir/src/FrontUI.cpp.o"
   "CMakeFiles/runAllTests.dir/src/FrontUI.cpp.o.d"
+=======
+>>>>>>> rmadu002/newFinal
   "CMakeFiles/runAllTests.dir/src/SortBy.cpp.o"
   "CMakeFiles/runAllTests.dir/src/SortBy.cpp.o.d"
   "CMakeFiles/runAllTests.dir/src/loginAuth.cpp.o"
