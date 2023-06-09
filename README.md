@@ -60,5 +60,5 @@
  ## Installation/Usage
  > Instructions on installing and running your application
  ## Testing
- > How was your project tested/validated? If you used CI, you should have a "build passing" badge in this README.
+ > We tested/validated our project in a couple ways. Firstly, we manually tested all of our functions, simulating what it would be like as a user. In addition, we used Google Test during our development phase, such as testing to make sure that our data was being parsed correctly and being stored properly in the vector. We did not end up using CI because of the limited number of work hours, and we did not end up using Valgrind because we were dealing with only a couple pointer in our entire program
  
